@@ -1,5 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade'
+import Slide from 'react-reveal/Slide';
 import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container";
 import Skills from './pages/skills/skills.component'
@@ -13,8 +14,10 @@ import ProjectTimeLine from './components/projects-timeline/project-timeline.com
 import ProjectTimeLine2 from './components/projects-timeline 2/project-timeline.component'
 import Contact from "./pages/contact-form/contact-form.component";
 import FooterPanel from'./components/footer/footer.component';
+import Experience from './pages/experience/experience.component';
 
 import './App.css';
+
 
 const App = () => {
   return (
@@ -26,13 +29,11 @@ const App = () => {
       /> */}
         {/* about me section */}
         <div>
-        <Parallax blur={{ min: -30, max: 30 }} bgImage={require("./assets/img/parallex/background.webp")} bgImageAlt="" strength={-200}>
             <Container className="container-box rounded">
               <Fade duration={500}>
                 <About />
               </Fade>
             </Container>
-        </Parallax>
       </div>
       {/* Skils section */}
       <div>
@@ -42,6 +43,20 @@ const App = () => {
               </Fade>
             </Container>
         </div>
+
+        {/* Experience */}
+
+         <div>
+        <Parallax blur={{ min: -30, max: 30 }} bgImage={require("./assets/img/parallex/background.webp")} bgImageAlt="" strength={-200}>
+            <Container className="container-box rounded">
+              <Slide bottom duration={500}>
+                <hr />
+                <Experience />
+              </Slide>
+            </Container>
+        </Parallax>
+      </div>
+
 
         {/* Project timeline section  */}
         <div>
