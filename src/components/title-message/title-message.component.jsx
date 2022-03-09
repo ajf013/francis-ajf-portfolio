@@ -37,13 +37,13 @@ const TitleMessage = () => {
           Hi, I am
           <br />
           <span>
-            <strong>Francis Cruz</strong>
+            <strong>Francis Cruz (MCT) </strong>
           </span>
         </div>
         <div className="sub">
 
-            <ReactTypingEffect
-        text={["Web Developer", "AI Bot Developer", "Learner", "Freelancer"]}
+      <ReactTypingEffect
+        text={["Cloud Administrator", "Web Developer", "Learner", "Freelancer"]}
         cursorRenderer={cursor => <h1>{cursor}</h1>}
         displayTextRenderer={(text, i) => {
           return (

@@ -248,6 +248,8 @@ const ProjectTimeLine = () => {
             src={L_LinkedinPostsReact}
             alt="Linkedin Posts React"
           >
+
+          <div data-aos = "fade-up-left" className="d-flex justify-content-between flex-column mt-1">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -345,6 +347,7 @@ const ProjectTimeLine = () => {
                 </UrlButton> */}
               </div>
             </div>
+          </div>
           </ImageEvent>
 
            {/* Project:  Postman Clone React */}
@@ -355,6 +358,8 @@ const ProjectTimeLine = () => {
             src={L_PostmanClone}
             alt="Postman Clone React"
           >
+          
+          <div data-aos = "fade-down-right" className="d-flex justify-content-between flex-column mt-1">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -440,6 +445,7 @@ const ProjectTimeLine = () => {
                 </UrlButton> */}
               </div>
             </div>
+          </div>
           </ImageEvent>
 
 

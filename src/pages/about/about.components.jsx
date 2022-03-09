@@ -29,14 +29,14 @@ const About = () => {
             {/* about me */}
             <Col xs={12} md={6}>
               <Row data-aos= "fade-up" className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;Francis Cruz</strong>
-                <br />A passionate programmer and an AI Bot Developer, born and brought up in India,Tamilnadu,Coimbatore. I am a Web Developer with React.js as my tech stack.
+                Hi there!!! I am <strong>&nbsp;Francis Cruz (MCT)</strong>
+                <br />A passionate programmer and Cloud Administrator, born and brought up in India,Tamilnadu,Coimbatore. I am a Web Developer with React.js as my tech stack.
                 <br />
-                In 2018, I started my U.G degree with specialization in <strong>'Computer Applications'.</strong>Now I'm undergoing my final semester.
+                In 2018, I started my U.G degree with specialization in <strong>'Computer Applications'</strong>and completed it by the mid of 2021.
                 <br />
-                Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
+                I have knowledge on Java Script, React JS, Mongo DB, Cloud. I love to learn about more towards cloud and new technologies. Working as <strong>Cloud Administrator at Wipro.</strong> Using Azure services like Virtual machines, Resource groups, load balancers and more resources.                
                 <br />
-                Along with that, I also help people to learn new things on their journey of becoming a professional programmer. 
+                Along with that, I also help people to learn new things on their journey of becoming a professional programmer or Cloud Enthuiast. 
                 <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
                 <br /> <br />
                 <Col data-aos= "fade-down" className="d-flex justify-content-center flex-wrap">
