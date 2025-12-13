@@ -28,61 +28,103 @@ const About = () => {
 
             {/* about me */}
             <Col xs={12} md={6}>
-              <Row data-aos= "fade-up" className=" align-items-start p-2 my-details rounded">
-                Hi there!!! I am <strong>&nbsp;Francis Cruz (MCT)</strong>
-                <br />A passionate programmer and Cloud Administrator, born and brought up in India,Tamilnadu,Coimbatore. I am a Web Developer with React.js as my tech stack.
-                <br />
-                In 2018, I started my U.G degree with specialization in <strong>'Computer Applications'</strong>and completed it by the mid of 2021.
-                <br />
-                I have knowledge on Java Script, React JS, Mongo DB, Cloud. I love to learn about more towards cloud and new technologies. Working as <strong>Cloud Administrator at Wipro.</strong> Using Azure services like Virtual machines, Resource groups, load balancers and more resources.                
-                <br />
-                Along with that, I also help people to learn new things on their journey of becoming a professional programmer or Cloud Enthuiast. 
-                <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
-                <br /> <br />
-                <Col data-aos= "fade-down" className="d-flex justify-content-center flex-wrap">
-                  <div data-aos= "fade-left">
-                    <a href="#contact">
-                      <Button className="m-2" variant="outline-primary">
-                        Let's talk
-                      </Button>
-                    </a>
-                  </div>
-                  <div data-aos= "fade-right">
-                    <a href="https://www.goodcv.com/cv/b412100c4b4cf25d2e3a3c35c4430289" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-success">
-                        My Resume
-                      </Button>
-                    </a>
-                  </div>
-                  <div data-aos= "fade-left"> 
-                    <a href="https://github.com/ajf013" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-dark">
-                        GitHub
-                      </Button>
-                    </a>
-                  </div>
-                  <div data-aos= "fade-right">
-                    <a href="https://www.linkedin.com/in/ajf013-francis-cruz/" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-info">
-                        LinkedIn
-                      </Button>
-                    </a>
-                  </div>
-                  <div data-aos= "fade-left">
-                    <a href="https://linktr.ee/AJF013" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-dark">
-                        Connect with me 
-                      </Button>
-                    </a>
-                  </div>
-                </Col>
-              </Row>
-            </Col>
+  <Row data-aos="fade-up" className="align-items-start p-2 my-details rounded">
+    
+    <p>
+      Hi there! I’m <strong>Francis Cruz (MCT)</strong>.
+    </p>
+
+    <p>
+      I’m a Cloud Engineer and Microsoft Certified Trainer, currently working as an
+      <strong> Azure Administrator at Wipro</strong>. I specialize in designing,
+      deploying, and managing secure, scalable cloud infrastructures on Microsoft Azure.
+    </p>
+
+    <p>
+      I was born and brought up in Coimbatore, Tamil Nadu, India. I completed my
+      undergraduate degree in <strong>Computer Applications</strong> in 2021 and later
+      pursued my <strong>M.Tech in Computing Systems and Infrastructure</strong> from
+      BITS Pilani through Wipro’s Work Integrated Learning Program (WILP).
+    </p>
+
+    <p>
+      I have hands-on experience with
+      <strong> Microsoft Azure, AWS, and Alibaba Cloud</strong>. My technical expertise
+      includes Azure Virtual Machines, Resource Groups, Virtual Networks, Load Balancers,
+      Network Security Groups, Identity & Access Management, governance, security, and
+      cloud operations.
+    </p>
+
+    <p>
+      In addition to cloud engineering, I have foundational experience in
+      <strong> JavaScript, React.js, and MongoDB</strong>, enabling effective collaboration
+      with development teams and better understanding of application-level requirements.
+    </p>
+
+    <p>
+      I’m passionate about cloud computing, DevOps practices, infrastructure optimization,
+      and continuous learning. I also enjoy mentoring and helping others grow in their
+      journey toward becoming professional developers and cloud engineers.
+    </p>
+
+    <p>
+      I love exploring new technologies—understanding the problems they solve and how they
+      can be used to build reliable, scalable, and impactful solutions.
+    </p>
+
+    <Col data-aos="fade-down" className="d-flex justify-content-center flex-wrap mt-2">
+      <a href="#contact">
+        <Button className="m-2" variant="outline-primary">
+          Let’s talk
+        </Button>
+      </a>
+
+      <a
+        href="https://www.goodcv.com/cv/b412100c4b4cf25d2e3a3c35c4430289"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button className="m-2" variant="outline-success">
+          My Resume
+        </Button>
+      </a>
+
+      <a
+        href="https://github.com/ajf013"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button className="m-2" variant="outline-dark">
+          GitHub
+        </Button>
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/ajf013-francis-cruz/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button className="m-2" variant="outline-info">
+          LinkedIn
+        </Button>
+      </a>
+
+      <a
+        href="https://linktr.ee/AJF013"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button className="m-2" variant="outline-dark">
+          Connect with me
+        </Button>
+      </a>
+    </Col>
+  </Row>
+</Col>
           </Row>
         </Container>
       </div>
     </div>
   );
 };
-
 export default About;

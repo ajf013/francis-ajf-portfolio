@@ -20,14 +20,14 @@ const Contact = () => {
         <Row>
           <Col data-aos="flip-left" className="d-flex justify-content-center flex-wrap">
             <div data-aos="fade-down" className="m-2">
-              <a href="mailto: aj13f01@gmail.com" target="_blank" rel="noopener noreferrer">
+              <a href="mailto: fcruz1301@icloud.com" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-danger" title="aj13f01@gmail.com">
                   <i data-aos="fade-down" className="fas fa-envelope-square"></i> Email Me
                 </Button>
               </a>
             </div>
             <div data-aos="fade-up" className="m-2">
-              <a href="https://api.whatsapp.com/send?phone=918870585619" target="_blank" rel="noopener noreferrer">
+              <a href="https://api.whatsapp.com/send?phone=916379649461" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-primary" title="Whatsapp me">
                   <i data-aos = "fade-up" className="fab fa-whatsapp"></i> Whatsapp Me
                 </Button>
@@ -57,14 +57,14 @@ const Contact = () => {
               </a>
             </div> */}
             <div data-aos="fade-up-left" className="m-2">
-              <a href="twitter.com/Freakcruzmma" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/Itsme_Ajf013" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-info" title="Tweets are welcomed!">
-                  <i data-aos="fade-up-left" className="fab fa-twitter"></i> Twitter
+                  <i data-aos="fade-left" className="fa-brands fa-x-twitter"></i> X (Twitter)
                 </Button>
               </a>
             </div>
             <div data-aos="fade-down-left" className="m-2">
-              <a href="https://www.instagram.com/its_me_ajf013/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/fcruz_013/" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-primary" title="Say hello on insta">
                   <i data-aos="fade-down-left" className="fab fa-instagram-square"></i> Instagram
                 </Button>
