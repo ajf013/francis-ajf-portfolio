@@ -4,13 +4,15 @@
 
 .focus {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  will-change: transform;
 }
 
-/* .focus:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
-} */
+/* --------------------
+   Card Safety
+-------------------- */
+
+.card {
+  max-width: 100%;
+}
 
 /* --------------------
    Card Title
@@ -32,7 +34,6 @@
   vertical-align: middle;
 }
 
-/* Responsive icon size */
 @media (max-width: 768px) {
   .image-style {
     width: 2.3em;
@@ -55,7 +56,6 @@
   color: #ffffff;
 }
 
-/* Responsive headings */
 @media (max-width: 768px) {
   .font-details,
   .font-details-b {
@@ -63,10 +63,21 @@
   }
 }
 
-/* Enable hover effect ONLY on desktop devices */
+/* --------------------
+   Desktop-only Hover
+-------------------- */
+
 @media (hover: hover) and (pointer: fine) {
   .focus:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
   }
+}
+
+/* --------------------
+   Overflow Protection
+-------------------- */
+
+#skills {
+  overflow-x: hidden;
 }
