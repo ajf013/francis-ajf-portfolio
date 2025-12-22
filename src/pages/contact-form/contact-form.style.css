@@ -18,6 +18,7 @@
 .btn-x {
   border-color: #000000;
   color: #000000;
+  background-color: transparent;
 }
 
 .btn-x:hover {
@@ -29,6 +30,7 @@
 .btn-whatsapp {
   border-color: #25D366;
   color: #25D366;
+  background-color: transparent;
 }
 
 .btn-whatsapp:hover {
@@ -40,6 +42,7 @@
 .btn-instagram {
   border-color: #C13584;
   color: #C13584;
+  background-color: transparent;
 }
 
 .btn-instagram:hover {

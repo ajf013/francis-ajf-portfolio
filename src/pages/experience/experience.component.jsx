@@ -82,7 +82,7 @@ const Experience = () => {
 
                   <strong>Technology:</strong> Microsoft Azure
                   <br />
-                  <strong>Duration:</strong> Nov 2025 – Present
+                  <strong>Duration:</strong> Dec 2025 – Present
                 </Card.Text>
               </Card.Body>
             </Card>

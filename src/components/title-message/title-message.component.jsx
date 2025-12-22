@@ -16,7 +16,7 @@ const MyTitleMessage = styled.h1`
   }
 
   div {
-    color: ${(props) => props.theme.textColor};
+    color: #ffffff;
     text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
     font-weight: 100;
     letter-spacing: 5px;

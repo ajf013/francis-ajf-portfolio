@@ -6,10 +6,12 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 //projects
-import L_WeatherApp from "../../assets/img/projects/weather_app.webp";
-import L_PhotoshopClone from "../../assets/img/projects/photoshop_clone.webp";
+import L_WeatherApp from "../../assets/img/projects/weather_app.png";
+import L_Expenseemitracker from "../../assets/img/projects/expense-emi-tracker.png";
+import L_ImageSearch from "../../assets/img/projects/image-search-download.png";
+import L_JobsSearch from "../../assets/img/projects/Job-Search-Apply.png";
 import L_Githubuserrepo from "../../assets/img/projects/githubuserrepo.webp";
-import L_RandomQuoteGenerators from "../../assets/img/projects/quote_generator_app.webp";
+import L_RandomQuoteGenerators from "../../assets/img/projects/quote_generator_app.png";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -38,7 +40,7 @@ const ProjectTimeLine = () => {
           <ImageEvent
             date="15/03/2021"
             className="text-center"
-            text="WeatherApp"
+            text="Weather App"
             src={L_WeatherApp}
             alt="Weather App"
           >
@@ -101,6 +103,17 @@ const ProjectTimeLine = () => {
                               Javascript
                             </span>
                           </li>
+                          <li>
+                            <span data-aos="fade-up-left" className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React JS"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              React JS
+                            </span>
+                          </li>
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -109,7 +122,7 @@ const ProjectTimeLine = () => {
               </div>
               <div data-aos="fade-up-right" className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://weatherforecast-react.netlify.app/"
+                  href="https://weathersearchreact.netlify.app/"
                   target="_blank"
                 >
                   SEE LIVE
@@ -120,92 +133,6 @@ const ProjectTimeLine = () => {
                 >
                   SOURCE CODE
                 </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
-          {/* Project: Photoshop Clone */}
-          <ImageEvent
-            date="22/03/2021"
-            className="text-center"
-            text="Photoshop Clone"
-            src={L_PhotoshopClone}
-            alt="Photoshop Clone"
-          >
-            <div data-aos="flip-left" className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      data-aos="flip-left"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> This is a simple Photoshop Clone using React.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul data-aos="fade-down" className="list-styles pt-1">
-                          <li>Select any pic from your local phone/computer.</li>
-                          <li>Easy to use with slider</li>
-                          <li>Simple basic styles for editing.</li>
-                          <li>Easy to download after editing.</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span data-aos="fade-down" className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span data-aos="fade-down" className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div data-aos="fade-right" className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://photoshopclonereact.netlify.app/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/ajf013/Photoshop_Clone_React"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-                {/* <UrlButton
-                  href="https://www.youtube.com/watch?v=K3h95l2YxmY&feature=youtu.be"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton> */}
               </div>
             </div>
           </ImageEvent>
@@ -309,19 +236,13 @@ const ProjectTimeLine = () => {
                 >
                   SOURCE CODE
                 </UrlButton>
-                {/* <UrlButton
-                  href="https://www.youtube.com/watch?v=K3h95l2YxmY&feature=youtu.be"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton> */}
               </div>
             </div>
           </ImageEvent>
 
           {/* Project: Random Quote Generator*/}
           <ImageEvent
-            date="04/05/2021"
+            date="18/12/2025"
             className="text-center"
             text="Random Quote Generator"
             src={L_RandomQuoteGenerators}
@@ -341,13 +262,15 @@ const ProjectTimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a Random Quote Generator App.
+                        <strong>Description:</strong> A modern Random Quote Generator app that provides inspiration for every mood.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Quotes will generated randomly and also with background colour.</li>
-                          <li>Quotes can be shared to your Twitter account.</li>
-                          <li>This is an installable application in Mobile Phones and PCs.</li>
+                          <li>Generate random quotes instantly.</li>
+                          <li>Filter quotes by Category (e.g., Love, Wisdom) and Language.</li>
+                          <li>Toggle between Dark and Light themes.</li>
+                          <li>Copy quotes to clipboard easily.</li>
+                          <li>PWA support: Installable on Mobile and PC.</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -399,7 +322,293 @@ const ProjectTimeLine = () => {
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/ajf013/random-quote-generator-react"
+                  href="https://github.com/ajf013/random-quote-generator-react.git"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* Project: Expense Emi Tracker */}
+
+          <ImageEvent
+            date="20/12/2025"
+            className="text-center"
+            text="Expense Emi Tracker"
+            src={L_Expenseemitracker}
+            alt="expense-emi-tracker"
+          >
+            <div data-aos="fade-up" className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      data-aos="fade-up-left"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> An application designed to help users track their daily expenses and calculate EMIs for various loans efficiently.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul data-aos="fade-up-right" className="list-styles pt-1">
+                          <li>Track daily expenses with ease.</li>
+                          <li>Calculate EMI for home, car, and personal loans.</li>
+                          <li>User-friendly interface for financial management.</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span data-aos="fade-up-left" className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML 5
+                            </span>
+                          </li>
+                          <li>
+                            <span data-aos="fade-up-left" className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span data-aos="fade-up-left" className="p-2">
+                              <Image
+                                src={L_JAVASCRIPT}
+                                alt="JavaScript"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Javascript
+                            </span>
+                          </li>
+                          <li>
+                            <span data-aos="fade-up-left" className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React JS"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              React JS
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div data-aos="fade-up-right" className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://expenseemitracker.netlify.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/ajf013/Expense-EMI-Tracker-React.git"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+          
+          {/* Project: Image Search and Download*/}
+
+          <ImageEvent
+            date="21/12/2025"
+            className="text-center"
+            text="Image Search and Download"
+            src={L_ImageSearch}
+            alt="Image Search and Download"
+          >
+            <div data-aos="fade-up" className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      data-aos="fade-up-left"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> A simple and intuitive web application that allows users to search for high-quality images using the Pexels API and download them directly to their devices.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul data-aos="fade-up-right" className="list-styles pt-1">
+                          <li>Keyword Search for specific images.</li>
+                          <li>Dynamic Grid Layout for responsiveness.</li>
+                          <li>Direct Download button for each image.</li>
+                          <li>Powered by Pexels API.</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span data-aos="fade-up-left" className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML 5
+                            </span>
+                          </li>
+                          <li>
+                            <span data-aos="fade-up-left" className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span data-aos="fade-up-left" className="p-2">
+                              <Image
+                                src={L_JAVASCRIPT}
+                                alt="JavaScript"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Javascript
+                            </span>
+                          </li>
+                          <li>
+                            <span data-aos="fade-up-left" className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React JS"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              React JS
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div data-aos="fade-up-right" className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://googlepexels.netlify.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/ajf013/image-search-download.git"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* Project: Jobs Search and Apply*/}
+
+          <ImageEvent
+            date="22/12/2025"
+            className="text-center"
+            text="Jobs Search and Apply"
+            src={L_JobsSearch}
+            alt="Jobs Search and Apply"
+          >
+            <div data-aos="fade-up" className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      data-aos="fade-up-left"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> A robust job search application that allows users to find and apply for jobs in India using real-time data from the Adzuna API.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul data-aos="fade-up-right" className="list-styles pt-1">
+                          <li>Search for jobs by Role and Location.</li>
+                          <li>Filter results for Full-Time positions.</li>
+                          <li>Dark Mode support for better UX.</li>
+                          <li>Seamless Pagination and Markdown support.</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span data-aos="fade-up-left" className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span data-aos="fade-up-left" className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div data-aos="fade-up-right" className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://jobssearchandapply.netlify.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/ajf013/Jobs-Search-and-Apply-React.git"
                   target="_blank"
                 >
                   SOURCE CODE
