@@ -1,5 +1,5 @@
 import React from 'react'
-import{ useEffect }from "react";
+import { useEffect } from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
@@ -10,12 +10,12 @@ import "aos/dist/aos.css";
 import "./contact-form.style.css";
 
 const Contact = () => {
-   useEffect(() => {
+  useEffect(() => {
     Aos.init({ duration: 3000 });
   }, []);
-    return (
-        <div data-aos= "flip-up" id="contact">
-      <h1 data-aos= "fade-left" className="pt-3 text-center font-details-b pb-3">CONTACT ME</h1>
+  return (
+    <div data-aos="flip-up" id="contact">
+      <h1 data-aos="fade-left" className="pt-3 text-center font-details-b pb-3">CONTACT ME</h1>
       <Jumbotron className="contact-jumbotron">
         <Row>
           <Col data-aos="flip-left" className="d-flex justify-content-center flex-wrap">
@@ -28,8 +28,8 @@ const Contact = () => {
             </div>
             <div data-aos="fade-up" className="m-2">
               <a href="https://api.whatsapp.com/send?phone=916379649461" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-primary" title="Whatsapp me">
-                  <i data-aos = "fade-up" className="fab fa-whatsapp"></i> Whatsapp Me
+                <Button className="btn-whatsapp" title="Whatsapp me">
+                  <i data-aos="fade-up" className="fab fa-whatsapp"></i> Whatsapp Me
                 </Button>
               </a>
             </div>
@@ -58,14 +58,14 @@ const Contact = () => {
             </div> */}
             <div data-aos="fade-up-left" className="m-2">
               <a href="https://x.com/Itsme_Ajf013" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-info" title="Tweets are welcomed!">
+                <Button className="btn-x" title="Tweets are welcomed!">
                   <i data-aos="fade-left" className="fa-brands fa-x-twitter"></i> X (Twitter)
                 </Button>
               </a>
             </div>
             <div data-aos="fade-down-left" className="m-2">
               <a href="https://www.instagram.com/fcruz_013/" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-primary" title="Say hello on insta">
+                <Button className="btn-instagram" title="Say hello on insta">
                   <i data-aos="fade-down-left" className="fab fa-instagram-square"></i> Instagram
                 </Button>
               </a>
@@ -74,7 +74,7 @@ const Contact = () => {
         </Row>
       </Jumbotron>
     </div>
-    );
+  );
 };
 
 export default Contact;

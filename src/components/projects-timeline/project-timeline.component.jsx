@@ -1,5 +1,5 @@
 import React from "react";
-import{ useEffect }from "react";
+import { useEffect } from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 import Aos from "aos";
@@ -28,8 +28,8 @@ const ProjectTimeLine = () => {
     Aos.init({ duration: 3000 });
   }, []);
   return (
-    <div  id="projects">
-      <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
+    <div id="projects">
+      <h1 data-aos="fade-down" className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
 
@@ -78,7 +78,7 @@ const ProjectTimeLine = () => {
                               ></Image>{" "}
                               HTML 5
                             </span>
-                          </li> 
+                          </li>
                           <li>
                             <span data-aos="fade-up-left" className="p-2">
                               <Image
@@ -114,7 +114,7 @@ const ProjectTimeLine = () => {
                 >
                   SEE LIVE
                 </UrlButton>
-                 <UrlButton
+                <UrlButton
                   href="https://github.com/ajf013/Weather-app-react"
                   target="_blank"
                 >
@@ -125,7 +125,7 @@ const ProjectTimeLine = () => {
           </ImageEvent>
 
           {/* Project: Photoshop Clone */}
-            <ImageEvent
+          <ImageEvent
             date="22/03/2021"
             className="text-center"
             text="Photoshop Clone"
@@ -181,7 +181,7 @@ const ProjectTimeLine = () => {
                               React
                             </span>
                           </li>
-                          </ul>
+                        </ul>
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
@@ -296,7 +296,7 @@ const ProjectTimeLine = () => {
                   </Card>
                 </Accordion>
               </div>
-              <div data-aos="fade-down-right"className="d-flex justify-content-between flex-nowrap text-center">
+              <div data-aos="fade-down-right" className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
                   href="https://githubuserrepo.netlify.app/"
                   target="_blank"
@@ -319,15 +319,15 @@ const ProjectTimeLine = () => {
             </div>
           </ImageEvent>
 
-           {/* Project: Random Quote Generator*/}
-        <ImageEvent
+          {/* Project: Random Quote Generator*/}
+          <ImageEvent
             date="04/05/2021"
             className="text-center"
             text="Random Quote Generator"
             src={L_RandomQuoteGenerators}
             alt="Random Quote Generator"
           >
-            <div data-aos = "fade-down-right" className="d-flex justify-content-between flex-column mt-1">
+            <div data-aos="fade-down-right" className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
                   <Card>
@@ -352,7 +352,7 @@ const ProjectTimeLine = () => {
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
-                        <li>
+                          <li>
                             <span className="p-2">
                               <Image
                                 src={L_HTML5}
@@ -392,7 +392,7 @@ const ProjectTimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-              <UrlButton
+                <UrlButton
                   href="https://randomquotegeneratorapp.netlify.app/"
                   target="_blank"
                 >

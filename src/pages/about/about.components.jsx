@@ -80,7 +80,7 @@ const About = () => {
       </a>
 
       <a
-        href="https://www.goodcv.com/cv/b412100c4b4cf25d2e3a3c35c4430289"
+        href="https://www.goodcv.com/cv/f14342e1b590f99a0e81819b4a33c5aa"
         target="_blank"
         rel="noopener noreferrer"
       >

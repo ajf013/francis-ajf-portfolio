@@ -1,10 +1,36 @@
 .logo {
-    width: 10%;
-  }
-  
-  .nav-theme {
-    background-color: #0c0c0ef8;
-    font-size: 20px;
-  }
-  
-  
+  width: 10%;
+}
+
+.nav-theme {
+  background-color: #0c0c0ef8;
+  font-size: 20px;
+}
+
+/* Navbar Link Animation */
+.nav-link {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after,
+.nav-link:focus::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+.nav-link:hover {
+  transform: scale(1.05);
+  color: #fff !important;
+}
