@@ -3,8 +3,11 @@
 }
 
 .nav-theme {
-  background-color: #0c0c0ef8;
-  font-size: 20px;
+  background-color: rgba(30, 30, 46, 0.85) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 /* Navbar Link Animation */

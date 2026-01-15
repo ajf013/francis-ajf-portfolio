@@ -14,6 +14,7 @@ import ProjectTimeLine from "./components/projects-timeline/project-timeline.com
 import Contact from "./pages/contact-form/contact-form.component";
 import FooterPanel from "./components/footer/footer.component";
 import Experience from "./pages/experience/experience.component";
+import Certifications from "./pages/certifications/certifications.component";
 
 import "./App.css";
 
@@ -58,6 +59,13 @@ const App = () => {
         <Container className="container-box rounded fade-up">
           <ProjectTimeLine />
           {/* <ProjectTimeLine2 /> */}
+        </Container>
+      </div>
+
+      {/* Certifications Section */}
+      <div id="certifications">
+        <Container className="container-box rounded fade-up">
+          <Certifications />
         </Container>
       </div>
 

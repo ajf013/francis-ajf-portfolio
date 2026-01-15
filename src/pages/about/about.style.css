@@ -1,18 +1,30 @@
 .about {
-    background-color: transparent;
-    font-size: 1.1em;
-  }
-  
-  .profile {
-    max-width: 18em;
-  }
-  
-  .my-details {
-    background-color: rgba(255, 255, 255, 0.747);
-  }
-  
-  .font-details {
-    font-size: 3em;
-    font-weight: 500;
-    color: #231d5af8;
-  }
+  background-color: transparent;
+  font-size: 1.1em;
+}
+
+.profile {
+  max-width: 18em;
+}
+
+.my-details {
+  color: #ffffff;
+  background-color: rgba(30, 30, 46, 0.85);
+  /* Glassmorphism dark */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px;
+}
+
+.my-details p {
+  color: #e0e0e0;
+}
+
+.font-details {
+  font-size: 3em;
+  font-weight: 500;
+  color: #61dafb;
+  text-shadow: 0 0 10px rgba(97, 218, 251, 0.3);
+}
