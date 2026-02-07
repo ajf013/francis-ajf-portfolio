@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./certifications.style.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 // Import all certification images
 import AwsCloudPractitioner from "../../assets/img/certifications/aws-certified-cloud-practitioner.png";
@@ -18,6 +20,14 @@ import AzureSolutionsArchitect from "../../assets/img/certifications/microsoft-c
 import CloudSkillsChampion from "../../assets/img/certifications/msus-cloud-skills-challenge-champion.png";
 
 const Certifications = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 1500,
+      once: false,
+      mirror: true
+    });
+  }, []);
+
   const certificationsList = [
     {
       name: "Microsoft Certified: Azure Fundamentals",
@@ -81,7 +91,7 @@ const Certifications = () => {
       organization: "Amazon Web Services",
       link: "https://www.credly.com/badges/eed8a21f-52c6-4a26-8b4c-803901ab65e3/public_url",
       logo: AwsCloudPractitioner
-    },    
+    },
     {
       name: "MS Cloud Skills Challenge Champion",
       date: "February 21, 2021",
@@ -91,15 +101,24 @@ const Certifications = () => {
     }
   ];
 
+  const aosAnimations = ["fade-right", "fade-left", "fade-up", "fade-down"];
+
   return (
     <div id="certifications">
       <div className="cert-header">
-        <h1 className="pt-3 text-center font-details-b pb-3">CERTIFICATIONS</h1>
+        <h1 className="pt-3 text-center font-details-b pb-3" data-aos="zoom-in">CERTIFICATIONS</h1>
       </div>
       <Container>
         <Row className="justify-content-center">
           {certificationsList.map((cert, index) => (
-            <Col md={6} lg={4} className="mb-4" key={index}>
+            <Col
+              md={6}
+              lg={4}
+              className="mb-4"
+              key={index}
+              data-aos={aosAnimations[index % aosAnimations.length]}
+              data-aos-offset="200"
+            >
               <Card className="cert-card h-100">
                 <div className="cert-logo-container">
                   <Card.Img variant="top" src={cert.logo} alt={`${cert.name} logo`} className="cert-logo" />

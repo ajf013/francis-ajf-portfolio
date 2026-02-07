@@ -122,7 +122,7 @@ const ProjectTimeLine = () => {
               </div>
               <div data-aos="fade-up-right" className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://weathersearchreact.netlify.app/"
+                  href="https://weather.fcruz.org"
                   target="_blank"
                 >
                   SEE LIVE
@@ -316,7 +316,7 @@ const ProjectTimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://randomquotegeneratorapp.netlify.app/"
+                  href="https://randomquotegeneratorapp.netlify.app"
                   target="_blank"
                 >
                   SEE LIVE
@@ -418,7 +418,7 @@ const ProjectTimeLine = () => {
               </div>
               <div data-aos="fade-up-right" className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://expenseemitracker.netlify.app/"
+                  href="https://expense.fcruz.org"
                   target="_blank"
                 >
                   SEE LIVE
@@ -521,7 +521,7 @@ const ProjectTimeLine = () => {
               </div>
               <div data-aos="fade-up-right" className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://googlepexels.netlify.app/"
+                  href="https://imagedownloader.fcruz.org"
                   target="_blank"
                 >
                   SEE LIVE
@@ -602,7 +602,7 @@ const ProjectTimeLine = () => {
               </div>
               <div data-aos="fade-up-right" className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://jobssearchandapply.netlify.app/"
+                  href="https://jobs.fcruz.org"
                   target="_blank"
                 >
                   SEE LIVE
