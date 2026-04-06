@@ -13,11 +13,11 @@ import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 // import L_EXPRESS from "../../assets/img/skills/express.svg";
 // import L_DJANGO from "../../assets/img/skills/django.svg";
 // import L_FLASK from "../../assets/img/skills/flask.svg";
-import L_MONGODB from "../../assets/img/skills/mongodb.svg";
+import L_SUPABASE from "../../assets/img/skills/supabase.svg";
 // import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 // import L_MSSQL from "../../assets/img/skills/mssql.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
-import L_HEROKU from "../../assets/img/skills/heroku.svg";
+// import L_HEROKU from "../../assets/img/skills/heroku.svg";
 // import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
@@ -30,6 +30,9 @@ import L_FIREBASE from "../../assets/img/skills/firebase.svg";
 import L_AZURE from "../../assets/img/skills/azure.svg";
 import L_AWS from "../../assets/img/skills/aws.svg";
 import L_ALIBABA from "../../assets/img/skills/alibaba-cloud.svg";
+
+/* ===== Code Editors ====== */
+import L_ANTIGRAVITY from "../../assets/img/skills/antigravity.svg";
 
 export const skills = {
   frontend: [
@@ -134,12 +137,6 @@ export const skills = {
 
   hostingPlatforms: [
     {
-      link: "https://www.heroku.com/",
-      imgAltText: "Heroku",
-      imgSrc: L_HEROKU,
-      skillName: "Heroku",
-    },
-    {
       link: "https://pages.github.com/",
       imgAltText: "GitHub Pages",
       imgSrc: L_GITHUB_PAGES,
@@ -182,10 +179,10 @@ export const skills = {
     //   skillName: "MS-SQL",
     // },
     {
-      link: "https://www.mongodb.com/",
-      imgAltText: "MongoDB",
-      imgSrc: L_MONGODB,
-      skillName: "MongoDB",
+      link: "https://supabase.com/",
+      imgAltText: "Supabase",
+      imgSrc: L_SUPABASE,
+      skillName: "Supabase",
     },
   ],
 
@@ -195,6 +192,21 @@ export const skills = {
       imgAltText: "GIT",
       imgSrc: L_GIT,
       skillName: "GIT",
+    },
+  ],
+
+  codeEditors: [
+    {
+      link: "https://code.visualstudio.com/",
+      imgAltText: "Visual Studio Code",
+      imgSrc: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
+      skillName: "VS Code",
+    },
+    {
+      link: "https://deepmind.google/",
+      imgAltText: "Antigravity",
+      imgSrc: L_ANTIGRAVITY,
+      skillName: "Antigravity",
     },
   ],
 };

@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./about.style.css";
 import Profile from "../../assets/img/profile/profile.webp";
+import Resume from "../../assets/resume/Francis_resume.pdf";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import Aos from "aos";
@@ -57,7 +58,7 @@ const About = () => {
 
                 <p>
                   In addition to cloud engineering, I have foundational experience in
-                  <strong> JavaScript, React.js, and MongoDB</strong>, enabling effective collaboration
+                  <strong> JavaScript, React.js</strong>, enabling effective collaboration
                   with development teams and better understanding of application-level requirements.
                 </p>
 
@@ -80,7 +81,7 @@ const About = () => {
                   </a>
 
                   <a
-                    href="https://www.goodcv.com/cv/f14342e1b590f99a0e81819b4a33c5aa"
+                    href={Resume}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
