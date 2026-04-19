@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./about.style.css";
 import Profile from "../../assets/img/profile/profile.webp";
-import Resume from "../../assets/resume/Francis_resume.pdf";
+import Resume from "../../assets/resume/Francis_Cruz_Resume.pdf";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import Aos from "aos";
