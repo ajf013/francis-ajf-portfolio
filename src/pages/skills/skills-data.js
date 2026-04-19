@@ -34,6 +34,10 @@ import L_ALIBABA from "../../assets/img/skills/alibaba-cloud.svg";
 /* ===== Code Editors ====== */
 import L_ANTIGRAVITY from "../../assets/img/skills/antigravity.svg";
 
+/* ===== DevOps ===== */
+import L_AZURE_DEVOPS from "../../assets/img/skills/azure-devops.svg";
+import L_TERRAFORM from "../../assets/img/skills/terraform.svg";
+
 export const skills = {
   frontend: [
     {
@@ -207,6 +211,22 @@ export const skills = {
       imgAltText: "Antigravity",
       imgSrc: L_ANTIGRAVITY,
       skillName: "Antigravity",
+    },
+  ],
+
+  /* ===== DevOps ===== */
+  devops: [
+    {
+      link: "https://azure.microsoft.com/en-us/products/devops/",
+      imgAltText: "Azure DevOps",
+      imgSrc: L_AZURE_DEVOPS,
+      skillName: "Azure DevOps",
+    },
+    {
+      link: "https://www.terraform.io/",
+      imgAltText: "Hashicorp Terraform",
+      imgSrc: L_TERRAFORM,
+      skillName: "Hashicorp Terraform",
     },
   ],
 };

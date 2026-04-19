@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Infinity loop representing DevOps cycle -->
+  <defs>
+    <linearGradient id="devops-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0078D4;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#5C4EE5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00BFA5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <path d="M32,24 C26,24 22,20 16,20 C10,20 6,24 6,30 C6,36 10,40 16,40 C22,40 26,36 32,36 C38,36 42,40 48,40 C54,40 58,36 58,30 C58,24 54,20 48,20 C42,20 38,24 32,24 Z" fill="none" stroke="url(#devops-grad)" stroke-width="4" stroke-linecap="round"/>
+  <!-- Gear icon on left loop -->
+  <circle cx="16" cy="30" r="4" fill="url(#devops-grad)"/>
+  <!-- Code icon on right loop -->
+  <circle cx="48" cy="30" r="4" fill="url(#devops-grad)"/>
+  <!-- Arrows for cycle -->
+  <polygon points="28,22 31,19 31,25" fill="url(#devops-grad)"/>
+  <polygon points="36,38 33,41 33,35" fill="url(#devops-grad)"/>
+</svg>

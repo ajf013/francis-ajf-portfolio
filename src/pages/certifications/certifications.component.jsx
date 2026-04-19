@@ -31,7 +31,7 @@ const Certifications = () => {
   const certificationsList = [
     {
       name: "Microsoft Certified: Azure Fundamentals",
-      date: "March 24,2021",
+      date: "March 24, 2021",
       organization: "Microsoft",
       link: "https://learn.microsoft.com/api/credentials/share/en-us/Fcruz-1301/5CA5DC84DFFEBB65?sharingId=97FB2ACBDB1199A8",
       logo: AzureFundamentals
@@ -52,7 +52,7 @@ const Certifications = () => {
     },
     {
       name: "Microsoft 365 Certified: Fundamentals",
-      date: "8/17/2021",
+      date: "August 17, 2021",
       organization: "Microsoft",
       link: "https://www.credly.com/badges/a9aff1b8-9f6f-411b-a444-04ff2808acd0/public_url",
       logo: Ms365Fundamentals
@@ -134,6 +134,7 @@ const Certifications = () => {
                   </a>
                 </Card.Body>
               </Card>
+              
             </Col>
           ))}
         </Row>
