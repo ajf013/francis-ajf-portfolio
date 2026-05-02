@@ -2,155 +2,77 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import Tilt from "react-parallax-tilt";
-
 import L_WIPRO from "../../assets/img/experience/wipro logo.gif";
-// import L_WIPROTHOUGHTS from "../../assets/img/experience/five thoughts.png";
-
 import "./experience.style.css";
 
 const Experience = () => {
   return (
-    <div id="experience">
-      <h1 data-aos="fade-right" className="pt-3 text-center font-details-b pb-3">
+    <div id="experience" className="py-5">
+      <h1 data-aos="zoom-in" className="text-center font-details-b pb-5">
         EXPERIENCE
       </h1>
 
-      <div className="jumbo-style">
+      <div className="timeline-section">
         <Container>
-          <Tilt
-            tiltMaxAngleX={15}
-            tiltMaxAngleY={15}
-            scale={1.03}
-            transitionSpeed={400}
-            className="mb-5"
-          >
-            <Card>
-              <Card.Header
-                as="h5"
-                className="d-flex justify-content-center flex-wrap"
-              >
-                <Card.Img
-                  variant="top"
-                  className="img-resize"
-                  src={L_WIPRO}
-                  alt="Wipro logo"
-                />
-              </Card.Header>
+          {/* Experience 1: Senior Project Engineer */}
+          <div className="experience-item left" data-aos="zoom-in-right">
+            <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} scale={1.02}>
+              <Card className="experience-card">
+                <Card.Header className="d-flex justify-content-center">
+                  <Card.Img variant="top" className="img-resize" src={L_WIPRO} alt="Wipro logo" />
+                </Card.Header>
+                <Card.Body>
+                  <div className="text-center mb-2">
+                    <span className="duration-badge">Dec 2025 – Present</span>
+                    <h4 className="role-title">Senior Project Engineer</h4>
+                    <p className="text-white-50">Woolworths Group | Wipro</p>
+                  </div>
+                  <div className="exp-description">
+                    <strong>• Advanced Azure Administration:</strong> Led Level-2 cloud operations, provisioning and managing complex infrastructure including VMs, VNETs, Application Gateways, and NSGs.
+                    <br />
+                    <strong>• Identity & Access Governance:</strong> Managed Azure AD (Entra ID), RBAC, and Privileged Identity Management (PIM) to ensure zero-trust security.
+                    <br />
+                    <strong>• Infrastructure as Code (IaC):</strong> Contributed to automation scripts using Terraform and ARM templates for consistent resource deployment.
+                    <br />
+                    <strong>• Monitoring & Security:</strong> Configured Azure Monitor, Log Analytics, and Microsoft Sentinel to proactively track service health and security threats.
+                    <br />
+                    <strong>• Performance Optimization:</strong> Analyzed Azure Advisor and Cost Management reports to implement rightsizing and cost-saving strategies.
+                    <br />
+                    <strong>• Mentoring:</strong> Acted as a technical point of contact, providing guidance and troubleshooting support to junior team members.
+                  </div>
+                </Card.Body>
+              </Card>
+            </Tilt>
+          </div>
 
-              <Card.Body className="d-flex justify-content-center flex-column">
-                <Card.Title className="text-center">
-                  Woolworths Group
-                </Card.Title>
-
-                <Card.Text className="text-center style">
-                  <strong>Role:</strong> Senior Project Engineer | Azure Administrator
-                  <br />
-                  <br />
-
-                  <strong>Description:</strong>
-                  <br />
-                  <strong>• Advanced Azure Administration:</strong> Led and supported Level-2
-                  Azure operations, handling complex provisioning, configuration, and
-                  maintenance of Virtual Machines, Resource Groups, Virtual Networks, Load
-                  Balancers, Network Security Groups (NSGs), and related Azure infrastructure
-                  services.
-                  <br />
-                  <strong>• Identity, Governance & Access Control:</strong> Managed Azure Active
-                  Directory, Role-Based Access Control (RBAC), and access governance to ensure
-                  secure, compliant, and least-privilege access across enterprise cloud
-                  environments.
-                  <br />
-                  <strong>• Monitoring, Optimization & Security:</strong> Proactively monitored
-                  cloud resources, security alerts, and service health; analyzed recommendations
-                  from <strong>Azure Advisor</strong> and implemented performance, reliability,
-                  and cost-optimization improvements.
-                  <br />
-                  <strong>• Incident Management & Root Cause Analysis:</strong> Handled escalated
-                  incidents and critical service requests, performed root cause analysis (RCA),
-                  and coordinated with cross-functional teams to ensure timely resolution and
-                  service continuity.
-                  <br />
-                  <strong>• Automation & Operational Excellence:</strong> Supported automation
-                  initiatives and standard operating procedures to improve operational
-                  efficiency, reduce manual effort, and enhance overall cloud reliability.
-                  <br />
-                  <strong>• Stakeholder & Team Collaboration:</strong> Acted as a technical point
-                  of contact for application teams and junior engineers, providing guidance,
-                  troubleshooting support, and knowledge sharing.
-                  <br />
-                  <br />
-
-                  <strong>Technology:</strong> Microsoft Azure
-                  <br />
-                  <strong>Duration:</strong> Dec 2025 – Present
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Tilt>
-
-          <Tilt
-            tiltMaxAngleX={15}
-            tiltMaxAngleY={15}
-            scale={1.03}
-            transitionSpeed={400}
-          >
-            <Card>
-              <Card.Header
-                as="h5"
-                className="d-flex justify-content-center flex-wrap"
-              >
-                <Card.Img
-                  variant="top"
-                  className="img-resize"
-                  src={L_WIPRO}
-                  alt="Wipro logo"
-                />
-              </Card.Header>
-
-              <Card.Body className="d-flex justify-content-center flex-column">
-                <Card.Title className="text-center">
-                  Woolworths Group
-                </Card.Title>
-
-                <Card.Text className="text-center style">
-                  <strong>Role:</strong> Scholar Trainee – WILP | Azure Administrator
-                  <br />
-                  <br />
-
-                  <strong>Description:</strong>
-                  <br />
-                  <strong>• Cloud Operations & Administration:</strong> Responsible for day-to-day
-                  Azure cloud operations, including provisioning, managing, and maintaining
-                  Virtual Machines, Resource Groups, Virtual Networks, and related infrastructure
-                  components through the Azure Portal.
-                  <br />
-                  <strong>• Identity & Access Management:</strong> Managed Azure Active Directory
-                  users, groups, and role-based access control (RBAC), ensuring secure and
-                  compliant access to cloud resources.
-                  <br />
-                  <strong>• Monitoring & Security:</strong> Monitored security alerts and service
-                  health, analyzed recommendations, and generated periodic reports using
-                  <strong> Azure Advisor</strong> to improve performance, reliability, and cost
-                  efficiency.
-                  <br />
-                  <strong>• Incident & Service Request Support:</strong> Provided timely support
-                  for user service requests and incident resolution, collaborating with internal
-                  teams to ensure minimal downtime and smooth cloud operations.
-                  <br />
-                  <strong>• Academic & Professional Development:</strong> Pursued M.Tech in
-                  Computing Systems and Infrastructure through Wipro’s Work Integrated Learning
-                  Program (WILP), combining academic learning with real-world enterprise cloud
-                  responsibilities.
-                  <br />
-                  <br />
-
-                  <strong>Technology:</strong> Microsoft Azure
-                  <br />
-                  <strong>Duration:</strong> Nov 2021 – Nov 2025
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Tilt>
+          {/* Experience 2: Scholar Trainee */}
+          <div className="experience-item right" data-aos="zoom-in-left">
+            <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} scale={1.02}>
+              <Card className="experience-card">
+                <Card.Header className="d-flex justify-content-center">
+                  <Card.Img variant="top" className="img-resize" src={L_WIPRO} alt="Wipro logo" />
+                </Card.Header>
+                <Card.Body>
+                  <div className="text-center mb-2">
+                    <span className="duration-badge">Nov 2021 – Nov 2025</span>
+                    <h4 className="role-title">Scholar Trainee – WILP</h4>
+                    <p className="text-white-50">Woolworths Group | Wipro</p>
+                  </div>
+                  <div className="exp-description">
+                    <strong>• Cloud Operations & Support:</strong> Performed day-to-day Azure administration, including provisioning VMs and managing storage accounts.
+                    <br />
+                    <strong>• Backup & Recovery:</strong> Managed Azure Backup and Site Recovery (ASR) to ensure data protection and business continuity.
+                    <br />
+                    <strong>• M.Tech BITS Pilani:</strong> Pursued and completed <strong>M.Tech in Computing Systems and Infrastructure</strong> from BITS Pilani through Wipro’s Work Integrated Learning Program (WILP).
+                    <br />
+                    <strong>• Incident Management:</strong> Provided L1/L2 support for cloud incidents, collaborating with senior engineers for root cause analysis (RCA).
+                    <br />
+                    <strong>• Patch Management:</strong> Assisted in regular OS patching and security updates across the virtual machine fleet.
+                  </div>
+                </Card.Body>
+              </Card>
+            </Tilt>
+          </div>
         </Container>
       </div>
     </div>

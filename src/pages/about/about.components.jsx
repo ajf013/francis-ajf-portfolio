@@ -1,131 +1,114 @@
-import React from "react";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import "./about.style.css";
-import Profile from "../../assets/img/profile/profile.webp";
-import Resume from "../../assets/resume/Francis_Cruz_Resume.pdf";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import Profile from "../../assets/img/profile/profile.webp";
+import Resume from "../../assets/resume/Francis_Cruz_Resume.pdf";
+import "./about.style.css";
 
 const About = () => {
   useEffect(() => {
-    Aos.init({ duration: 3000 });
+    Aos.init({ duration: 1500 });
   }, []);
+
   return (
-    <div id="about">
-      <div data-aos="fade-right" className="about">
-        <h1 data-aos="fade-right" className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
-        <Container>
-          <Row data-aos="fade-down-right" className="pt-3 pb-5 align-items-center">
-            <Col xs={12} md={6}>
-              <Row data-aos="fade-down-left" className="justify-content-center mb-2 mr-2 ">
-                <Image data-aos="fade-left" className="profile justify-content-end" alt="profile" src={Profile} thumbnail fluid />
-              </Row>
-            </Col>
+    <div id="about" className="py-5">
+      <h1 data-aos="zoom-in" className="text-center font-details pb-5">ABOUT ME</h1>
+      <Container>
+        <Row className="align-items-center">
+          {/* Profile Image Column */}
+          <Col xs={12} lg={5} className="mb-5 mb-lg-0" data-aos="zoom-in">
+            <div className="profile-wrapper">
+              <Image className="profile" alt="profile" src={Profile} fluid />
+            </div>
+          </Col>
 
-            {/* about me */}
-            <Col xs={12} md={6}>
-              <Row data-aos="fade-up" className="align-items-start p-2 my-details rounded">
+          {/* Bio Details Column */}
+          <Col xs={12} lg={7}>
+            <div className="info-card" data-aos="zoom-in" data-aos-delay="100">
+              <h4>Core Identity</h4>
+              <p>
+                Hi there! I’m <strong>Francis Cruz (MCT)</strong>. I am a <strong>Senior Project Engineer | Azure Administrator | DevOps Engineer</strong> at 
+                <strong> Wipro</strong>, specializing in architecting and managing high-performance, 
+                secure cloud infrastructures on Microsoft Azure.
+              </p>
+            </div>
 
-                <p>
-                  Hi there! I’m <strong>Francis Cruz (MCT)</strong>.
-                </p>
+            <div className="info-card" data-aos="zoom-in" data-aos-delay="200">
+              <h4>Academic Excellence</h4>
+              <p>
+                My foundation includes an <strong>M.Tech in Computing Systems and Infrastructure</strong> from 
+                <strong> BITS Pilani</strong>, completed through Wipro’s WILP. This blend of academic theory 
+                and hands-on enterprise experience allows me to solve complex infrastructure challenges with 
+                precision and scalability.
+              </p>
+            </div>
 
-                <p>
-                  I’m a Cloud Engineer and Microsoft Certified Trainer, currently working as an
-                  <strong> Azure Administrator at Wipro</strong>. I specialize in designing,
-                  deploying, and managing secure, scalable cloud infrastructures on Microsoft Azure.
-                </p>
+            <div className="info-card" data-aos="zoom-in" data-aos-delay="300">
+              <h4>Technical Philosophy</h4>
+              <p>
+                I am dedicated to implementing <strong>DevOps best practices</strong>, Infrastructure as Code (IaC), 
+                and continuous optimization. As a <strong>Microsoft Certified Trainer (MCT)</strong>, I am passionate 
+                about building reliable solutions and mentoring the next generation of cloud engineers.
+              </p>
+            </div>
+          </Col>
+        </Row>
 
-                <p>
-                  I was born and brought up in Coimbatore, Tamil Nadu, India. I completed my
-                  undergraduate degree in <strong>Computer Applications</strong> in 2021 and later
-                  pursued my <strong>M.Tech in Computing Systems and Infrastructure</strong> from
-                  BITS Pilani through Wipro’s Work Integrated Learning Program (WILP).
-                </p>
+        {/* Expertise Highlights Marquee */}
+        <div className="role-marquee-container" data-aos="zoom-in" data-aos-delay="400">
+          <div className="role-marquee-content">
+            <span className="role-badge">Senior Project Engineer</span>
+            <span className="role-badge">Azure Administrator</span>
+            <span className="role-badge">DevOps Engineer</span>
+            <span className="role-badge">Microsoft Certified Trainer</span>
+            <span className="role-badge">M.Tech BITS Pilani</span>
+            <span className="role-badge">Solutions Architect</span>
+            {/* Duplicated for seamless loop */}
+            <span className="role-badge">Senior Project Engineer</span>
+            <span className="role-badge">Azure Administrator</span>
+            <span className="role-badge">DevOps Engineer</span>
+            <span className="role-badge">Microsoft Certified Trainer</span>
+            <span className="role-badge">M.Tech BITS Pilani</span>
+            <span className="role-badge">Solutions Architect</span>
+          </div>
+        </div>
 
-                <p>
-                  I have hands-on experience with
-                  <strong> Microsoft Azure, AWS, and Alibaba Cloud</strong>. My technical expertise
-                  includes Azure Virtual Machines, Resource Groups, Virtual Networks, Load Balancers,
-                  Network Security Groups, Identity & Access Management, governance, security, and
-                  cloud operations.
-                </p>
+        {/* Action Buttons */}
+        <div className="about-buttons-box" data-aos="zoom-in" data-aos-delay="500">
+          <div className="d-flex justify-content-center flex-wrap">
+            <a href="#contact">
+              <Button className="m-2" variant="outline-primary">
+                <i className="fas fa-comments mr-1"></i> Let’s talk
+              </Button>
+            </a>
 
-                <p>
-                  In addition to cloud engineering, I have foundational experience in
-                  <strong> JavaScript, React.js</strong>, enabling effective collaboration
-                  with development teams and better understanding of application-level requirements.
-                </p>
+            <a href={Resume} target="_blank" rel="noopener noreferrer">
+              <Button className="m-2" variant="outline-success">
+                <i className="fas fa-file-download mr-1"></i> My Resume
+              </Button>
+            </a>
 
-                <p>
-                  I’m passionate about cloud computing, DevOps practices, infrastructure optimization,
-                  and continuous learning. I also enjoy mentoring and helping others grow in their
-                  journey toward becoming professional developers and cloud engineers.
-                </p>
+            <a href="https://github.com/ajf013" target="_blank" rel="noopener noreferrer">
+              <Button className="m-2" variant="outline-light">
+                <i className="fab fa-github mr-1"></i> GitHub
+              </Button>
+            </a>
 
-                <p>
-                  I love exploring new technologies—understanding the problems they solve and how they
-                  can be used to build reliable, scalable, and impactful solutions.
-                </p>
-
-                <Col data-aos="fade-down" className="d-flex justify-content-center flex-wrap mt-2">
-                  <a href="#contact">
-                    <Button className="m-2" variant="outline-primary">
-                      <i className="fas fa-comments mr-1"></i> Let’s talk
-                    </Button>
-                  </a>
-
-                  <a
-                    href={Resume}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button className="m-2" variant="outline-success">
-                      <i className="fas fa-file-download mr-1"></i> My Resume
-                    </Button>
-                  </a>
-
-                  <a
-                    href="https://github.com/ajf013"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button className="m-2" variant="outline-light">
-                      <i className="fab fa-github mr-1"></i> GitHub
-                    </Button>
-                  </a>
-
-                  <a
-                    href="https://www.linkedin.com/in/ajf013-francis-cruz/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button className="m-2" variant="outline-info">
-                      <i className="fab fa-linkedin mr-1"></i> LinkedIn
-                    </Button>
-                  </a>
-
-                  <a
-                    href="https://linktr.ee/AJF013"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button className="m-2" variant="outline-warning">
-                      <i className="fas fa-link mr-1"></i> Connect with me
-                    </Button>
-                  </a>
-                </Col>
-              </Row>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+            <a href="https://www.linkedin.com/in/ajf013-francis-cruz/" target="_blank" rel="noopener noreferrer">
+              <Button className="m-2" variant="outline-info">
+                <i className="fab fa-linkedin mr-1"></i> LinkedIn
+              </Button>
+            </a>
+          </div>
+        </div>
+      </Container>
     </div>
   );
 };
+
 export default About;

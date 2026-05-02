@@ -14,3 +14,117 @@
   font-size: 25px;
   font-weight: 800;
 }
+
+.timeline-section {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Central Line */
+.timeline-section::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: rgba(97, 218, 251, 0.3);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+}
+
+.experience-item {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* Dots on the line */
+.experience-item::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -10px;
+    background-color: #1a1a1a;
+    border: 4px solid #61dafb;
+    top: 30px;
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(97, 218, 251, 0.8);
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    left: 50%;
+}
+
+.right::after {
+    left: -10px;
+}
+
+/* Experience Card Styling */
+.experience-card {
+    background: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 20px !important;
+    color: white !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3) !important;
+    transition: all 0.3s ease !important;
+}
+
+.experience-card:hover {
+    border-color: #61dafb !important;
+    box-shadow: 0 15px 40px rgba(97, 218, 251, 0.2) !important;
+}
+
+.img-resize {
+    width: 6em;
+    padding: 10px;
+}
+
+.role-title {
+    color: #61dafb;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.duration-badge {
+    background: rgba(97, 218, 251, 0.15);
+    color: #61dafb;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.exp-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .timeline-section::after {
+        left: 31px;
+    }
+    .experience-item {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    .experience-item::after {
+        left: 21px;
+    }
+    .right {
+        left: 0%;
+    }
+}

@@ -1,8 +1,5 @@
 import React, { useEffect } from "react";
 import Card from "react-bootstrap/Card";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import "./certifications.style.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -18,6 +15,9 @@ import AzureNetworkEngineer from "../../assets/img/certifications/microsoft-cert
 import AzureSecurityEngineer from "../../assets/img/certifications/microsoft-certified-azure-security-engineer-associate.png";
 import AzureSolutionsArchitect from "../../assets/img/certifications/microsoft-certified-azure-solutions-architect-expert.1.png";
 import CloudSkillsChampion from "../../assets/img/certifications/msus-cloud-skills-challenge-champion.png";
+import PowerPlatformFundamentals from "../../assets/img/certifications/microsoft-certified-power-platform-fundamentals.png";
+import SecurityFundamentals from "../../assets/img/certifications/microsoft-certified-security-compliance-and-identity-fundamentals.png";
+import DesigningSolutions from "../../assets/img/certifications/az-305-designing-microsoft-azure-infrastructure-solutions.png";
 
 const Certifications = () => {
   useEffect(() => {
@@ -49,6 +49,20 @@ const Certifications = () => {
       organization: "Microsoft",
       link: "https://learn.microsoft.com/api/credentials/share/en-us/Fcruz-1301/9129B319EBE22BB3?sharingId=97FB2ACBDB1199A8",
       logo: AzureAiFundamentals
+    },
+    {
+      name: "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
+      date: "August 12, 2021",
+      organization: "Microsoft",
+      link: "https://learn.microsoft.com/en-us/users/fcruz-1301/credentials",
+      logo: SecurityFundamentals
+    },
+    {
+      name: "Microsoft Certified: Power Platform Fundamentals",
+      date: "September 5, 2021",
+      organization: "Microsoft",
+      link: "https://learn.microsoft.com/en-us/users/fcruz-1301/credentials",
+      logo: PowerPlatformFundamentals
     },
     {
       name: "Microsoft 365 Certified: Fundamentals",
@@ -86,6 +100,13 @@ const Certifications = () => {
       logo: AzureSolutionsArchitect
     },
     {
+      name: "Microsoft Certified: Designing Azure Infrastructure Solutions",
+      date: "June 15, 2023",
+      organization: "Microsoft",
+      link: "https://learn.microsoft.com/en-us/users/fcruz-1301/credentials",
+      logo: DesigningSolutions
+    },
+    {
       name: "AWS Certified Cloud Practitioner",
       date: "February 18, 2022",
       organization: "Amazon Web Services",
@@ -101,24 +122,21 @@ const Certifications = () => {
     }
   ];
 
-  const aosAnimations = ["fade-right", "fade-left", "fade-up", "fade-down"];
+
+
+  // Duplicate the list for seamless marquee effect
+  const fullCertificationsList = [...certificationsList, ...certificationsList];
 
   return (
-    <div id="certifications">
+    <div id="certifications" className="py-5">
       <div className="cert-header">
-        <h1 className="pt-3 text-center font-details-b pb-3" data-aos="zoom-in">CERTIFICATIONS</h1>
+        <h1 className="pt-3 text-center font-details-b pb-5" data-aos="zoom-in">CERTIFICATIONS</h1>
       </div>
-      <Container>
-        <Row className="justify-content-center">
-          {certificationsList.map((cert, index) => (
-            <Col
-              md={6}
-              lg={4}
-              className="mb-4"
-              key={index}
-              data-aos={aosAnimations[index % aosAnimations.length]}
-              data-aos-offset="200"
-            >
+      
+      <div className="marquee-container" data-aos="zoom-in">
+        <div className="marquee-content">
+          {fullCertificationsList.map((cert, index) => (
+            <div className="cert-item" key={index}>
               <Card className="cert-card h-100">
                 <div className="cert-logo-container">
                   <Card.Img variant="top" src={cert.logo} alt={`${cert.name} logo`} className="cert-logo" />
@@ -134,13 +152,13 @@ const Certifications = () => {
                   </a>
                 </Card.Body>
               </Card>
-              
-            </Col>
+            </div>
           ))}
-        </Row>
-      </Container>
+        </div>
+      </div>
     </div>
   );
 };
+
 
 export default Certifications;

@@ -73,8 +73,8 @@ const TitleMessage = () => {
             <ReactTypingEffect
               text={[
                 "Azure Administrator",
-                "DevOps Practitioner",
-                "Cloud Platform Learner",
+                "DevOps Engineer",
+                "Microsoft Certified Trainer",
               ]}
               cursorRenderer={(cursor) => <span>{cursor}</span>}
               displayTextRenderer={(text) => (

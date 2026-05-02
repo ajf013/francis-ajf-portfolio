@@ -1,54 +1,99 @@
 /* --------------------
-   Skill Card Hover
+   Marquee Base
 -------------------- */
 
-.focus {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+.skill-marquee-container {
+  width: 100%;
+  overflow: hidden;
+  padding: 15px 0;
+  position: relative;
+  /* Soft fade on edges */
+  mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+}
+
+.skill-marquee-content {
+  display: flex;
+  width: max-content;
+  gap: 20px;
+}
+
+.skill-marquee-content:hover {
+  animation-play-state: paused;
+}
+
+/* Animations */
+.scroll-left {
+  animation: scroll-left 40s linear infinite;
+}
+
+.scroll-right {
+  animation: scroll-right 40s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes scroll-right {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
 }
 
 /* --------------------
-   Card Safety
+   Skill Pill Styling
 -------------------- */
 
-.card {
-  max-width: 100%;
+.skill-pill {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: white;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  position: relative;
 }
 
-/* --------------------
-   Card Title
--------------------- */
+.skill-pill:hover {
+  background: rgba(97, 218, 251, 0.1);
+  border-color: #61dafb;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(97, 218, 251, 0.2);
+}
 
-.card-title {
-  font-size: 1.9em;
+.skill-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-right: 12px;
+}
+
+.skill-name {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.category-tag {
+  position: absolute;
+  top: -8px;
+  right: 15px;
+  font-size: 0.65rem;
+  background: #61dafb;
+  color: #212121;
+  padding: 2px 8px;
+  border-radius: 10px;
   font-weight: 700;
-  letter-spacing: 0.5px;
-}
-
-/* --------------------
-   Skill Icons
--------------------- */
-
-.image-style {
-  width: 2.8em;
-  height: auto;
-  vertical-align: middle;
-}
-
-@media (max-width: 768px) {
-  .image-style {
-    width: 2.3em;
-  }
+  text-transform: uppercase;
+  opacity: 0.8;
 }
 
 /* --------------------
    Section Headings
 -------------------- */
-
-.font-details {
-  font-size: 2.8em;
-  font-weight: 500;
-  color: #231d5af8;
-}
 
 .font-details-b {
   font-size: 2.8em;
@@ -57,27 +102,25 @@
 }
 
 @media (max-width: 768px) {
-  .font-details,
   .font-details-b {
     font-size: 2.2em;
   }
-}
-
-/* --------------------
-   Desktop-only Hover
--------------------- */
-
-@media (hover: hover) and (pointer: fine) {
-  .focus:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  .skill-marquee-container {
+    padding: 10px 0;
+  }
+  .skill-pill {
+    padding: 8px 15px;
+  }
+  .skill-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .skill-name {
+    font-size: 0.9rem;
   }
 }
 
-/* --------------------
-   Overflow Protection
--------------------- */
-
 #skills {
   overflow-x: hidden;
+  background: transparent;
 }
