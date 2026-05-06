@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import Profile from "../../assets/img/profile/profile.webp";
-import Resume from "../../assets/resume/Francis_Cruz_Resume.pdf";
+import Resume from "../../assets/resume/Francis_Resume.pdf";
 import "./about.style.css";
 
 const About = () => {
