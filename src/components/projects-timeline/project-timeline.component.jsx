@@ -9,6 +9,8 @@ import Container from "react-bootstrap/Container";
 import L_CloudSentry from "../../assets/img/projects/cloudsentry.png";
 import L_CruzOpsAI from "../../assets/img/projects/cruzops-ai.png";
 import L_AzureFinancialInsights from "../../assets/img/projects/azure-financial-insights.png";
+import L_ConverterApp from "../../assets/img/projects/converter-app.png";
+import L_StickyNotesApp from "../../assets/img/projects/sticky-notes-app.png";
 import L_Expenseemitracker from "../../assets/img/projects/expense-emi-tracker.png";
 import L_WeatherApp from "../../assets/img/projects/weather_app.png";
 import L_JobsSearch from "../../assets/img/projects/Job-Search-Apply.png";
@@ -22,6 +24,7 @@ import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import L_AZURE from "../../assets/img/skills/azure.svg";
 import L_AZURE_DEVOPS from "../../assets/img/skills/azure-devops.svg";
 import L_TERRAFORM from "../../assets/img/skills/terraform.svg";
+import L_SUPABASE from "../../assets/img/skills/supabase.svg";
 
 import "./project-timeline.style.css";
 
@@ -39,7 +42,7 @@ const projectsData = [
     description: "An AIOps chat assistant querying Azure infrastructure resources and generating optimized Terraform modules & scripts in real-time.",
     image: L_CruzOpsAI,
     tech: [L_REACT, L_JAVASCRIPT, L_AZURE, L_TERRAFORM],
-    live: "https://github.com/ajf013/CruzOps-AI",
+    live: "https://pscli.fcruz.org/",
     source: "https://github.com/ajf013/CruzOps-AI"
   },
   {
@@ -47,8 +50,24 @@ const projectsData = [
     description: "A FinOps governance dashboard tracking resource spend, budgeting, forecasts, and generating cost-saving right-sizing suggestions.",
     image: L_AzureFinancialInsights,
     tech: [L_REACT, L_JAVASCRIPT, L_AZURE, L_AZURE_DEVOPS],
-    live: "https://insights.fcruz.org",
+    live: "https://finops.fcruz.org",
     source: "https://github.com/ajf013/Azure-Financial-Insights"
+  },
+  {
+    title: "Converter App",
+    description: "A premium, all-in-one client-side file conversion Progressive Web App (PWA) supporting images, audio, and documents with offline compatibility.",
+    image: L_ConverterApp,
+    tech: [L_REACT, L_JAVASCRIPT, L_HTML5, L_CSS3],
+    live: "https://convertme.fcruz.org/",
+    source: "https://github.com/ajf013/converter-app"
+  },
+  {
+    title: "Sticky Notes App",
+    description: "A high-performance notes app featuring real-time cloud synchronization, premium glassmorphism dashboard, and categorized rich-text notes.",
+    image: L_StickyNotesApp,
+    tech: [L_REACT, L_JAVASCRIPT, L_SUPABASE, L_CSS3],
+    live: "https://sticky-notes.fcruz.org",
+    source: "https://github.com/ajf013/sticky-notes-app"
   },
   {
     title: "Expense EMI Tracker",
