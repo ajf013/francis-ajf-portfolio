@@ -1,172 +1,255 @@
-## Hi I'm Francis Cruz <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="28px" alt="hi">
-
-I'm Francis Cruz, Working as Cloud Administrator @Wipro. I Spend most of time on uxing Microsoft Azure 
-
-### 👦Stats:
-<div align="left">
-
-![profile visit](https://komarev.com/ghpvc/?username=ajf013) [![About Me Badge](https://img.shields.io/badge/-about.me-white?style=for-the-badge&logo=about.me&logoColor=00a98f&link=https://github.com/ajf013/ajf013/blob/master/README.md)](https://github.com/ajf013/ajf013/blob/master/README.md) [![Resume Badge](https://img.shields.io/badge/-resume-white?style=for-the-badge&logo=google-scholar&logoColor=ff7102&link=https://www.goodcv.com/cv/b412100c4b4cf25d2e3a3c35c4430289)](https://www.goodcv.com/cv/b412100c4b4cf25d2e3a3c35c4430289)
-[![Repos Badge](https://badges.pufler.dev/repos/ajf013)](https://badges.pufler.dev) [![Years Badge](https://badges.pufler.dev/years/ajf013)](https://badges.pufler.dev)
-
-
-
-### "Love to code until my death"! 👋
-![run](https://media.giphy.com/media/1337mjZhdNJWSY/giphy.gif)
-
-:mailbox: Reach me out!
-
-[![GitHub followers](https://img.shields.io/github/followers/ajf013?style=social)](https://www.github.com/ajf013)
-[![Twitter Badge](https://img.shields.io/badge/-@Freakcruzmma-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/Itsme_Ajf013)](https://twitter.com/Itsme_Ajf013) 
-[![Linkedin Badge](https://img.shields.io/badge/-ajf013-0e76a8?style=flat&labelColor=0e76a8&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajf013-francis-cruz/) 
-[![Mail Badge](https://img.shields.io/badge/-@its_me_ajf013-e84393?style=flat&labelColor=e84393&logo=instagram&logoColor=white)](https://www.instagram.com/its_me_ajf013/) 
-[![Mail Badge](https://img.shields.io/badge/-AJF013-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=white)](mailto:cruzmma2021@gmail.com)
-[![Github](https://img.shields.io/github/followers/ajf013?label=Follow&style=social)](https://github.com/ajf013)
-<a href="https://franciscruz.netlify.app/"><img src="https://img.shields.io/website?down_color=lightgrey&down_message=down&up_color=%231e90ff&up_message=live&url=https%3A%2F%2Ffranciscruz.netlify.app/%2F" /></a> <br />
-
- <a href="https://www.linkedin.com/in/ajf013-francis-cruz/"><img src="https://github.com/ashutosh1919/ashutosh1919/blob/master/logos/linkedin.png" width="40" /></a>
-<a href="https://www.youtube.com/c/MMAEntertainment"><img src="https://github.com/ashutosh1919/ashutosh1919/blob/master/logos/youtube-logo.png" width="40" /></a>
-<a href="https://github.com/ajf013"><img src="https://github.com/ashutosh1919/ashutosh1919/blob/master/logos/github-logo.png" width="40" /></a>
-<a href="https://www.facebook.com/francis.lashly/"><img src="https://github.com/ashutosh1919/ashutosh1919/blob/master/logos/facebook.png" width="40" /></a>
-<a href="mailto:cruzmma2021@gmail.com"><img src="https://github.com/ashutosh1919/ashutosh1919/blob/master/logos/google-plus.png" width="40" /></a>
-<a href="https://twitter.com/Itsme_Ajf013"><img src="https://github.com/ashutosh1919/ashutosh1919/blob/master/logos/twitter.png" width="40" /></a>
-<a href="https://www.instagram.com/its_me_ajf013/"><img src="https://github.com/ashutosh1919/ashutosh1919/blob/master/logos/instagram.png" width="40" /></a>
-
-
-
-<!-- TODO: Add last video link -->
-
-- 🔭 I’m not currently working. Searching for job.
-- :computer: Most used line of code `git commit -m "Initial Commit"`
-- 🤔 I’m looking for help with Outstanding ideas.
-- 📫 How to reach me: <a href="mailto:cruzmma2021@gamil.com"><img src="https://img.shields.io/badge/-cruzmma2021@gmail.com-D14836?style=flat-square&logo=Gmail&logoColor=white"/></a>
-- 😄 Pronouns: ajf, Cruz, AJF013.
-- ⚡ Fun fact: I play games and go out with my buddies.
-
-- 🚀 I use daily:
-  ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=plastic&logo=javascript)
-  ![React Js](https://img.shields.io/badge/-React-black?style=plastic&logo=react)
-  ![Git](https://img.shields.io/badge/-Git-black?style=plastic&logo=git)
-  ![Npm](https://img.shields.io/badge/-Npm-black?style=plastic&logo=npm)
-  ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=plastic&logo=visual-studio-code)
-
-- 💻 I work using:
-  ![React](https://img.shields.io/badge/-React-3b2e5a?style=plastic&logo=react)
-  ![MaterialUI](https://img.shields.io/badge/-MatrialUI-0081CB?style=plastic&logo=material-UI)
-  ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=plastic&logo=github)
-
-- ⚙️ I also use and work: 
-  ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=plastic&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=plastic&logo=css3)
-  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=plastic&logo=bootstrap)
-- 🌱 Learning all about:
-  ![Node.JS](https://img.shields.io/badge/-Node.JS-black?style=plastic&logo=Node.js) ![Express.JS](https://img.shields.io/badge/-Express.JS-c7b198?style=plastic&logo=Express.JS) 
-  ![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=plastic&logo=mongodb)
-
-#### Top Technologies
-
-<!-- TODO: Make technologies links takes you to repositories -->
-
-[![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#) [![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#) [![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#) 
-
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50"> Technologies I've been learning and using so far
-
-- PROGRAMMING LANGUAGES : <br />
-  
-   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-
-- FRONTEND : <br />
-  
-   <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" />
-   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> 
-   <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" />
-   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  
-- BACKEND : <br />
-  
-   <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-   <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
-  
- - FRAMEWOKS : <br />
-  
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-    <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" />
-    <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white" />
-    <img src= "https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
-    <img src ="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white" />
-    <img src ="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-    <img src = "https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-    <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
-    <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
-  
-- CLOUD: <br />
-  
-    <img src="https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
-    <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-    <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
-    <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" />
-    <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
-    <img src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black" />
-  
- - WEB BROWSERS: <br />
-  
-    <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white" />
-    <img src="https://img.shields.io/badge/Firefox_Browser-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white" />
-    <img src=" 	https://img.shields.io/badge/Microsoft_Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white" />
-    <img src="https://img.shields.io/badge/Brave-FF1B2D?style=for-the-badge&logo=Brave&logoColor=white" />
-  
-- OS: <br />
-  
-    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
-    <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
-    <img src="https://img.shields.io/badge/Windows_XP-003399?style=for-the-badge&logo=windows-xp&logoColor=white" />
-    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-  
-- IDE: <br />
-  
-    <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
-    <img src="https://img.shields.io/badge/Atom-66595C?style=for-the-badge&logo=Atom&logoColor=white" />
-    
- - DESIGN: <br />
-  
-    <img src="https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white" />
-    <img src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black" />
-    <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white" />
-  
- - FUNDING: <br />
-  
-    <img src ="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
-  
- - SOUND: <br />
-  
-    <img src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white" />
-    <img src="https://img.shields.io/badge/YouTube_Music-FF0000?style=for-the-badge&logo=youtube-music&logoColor=white" />
-    <img src="https://img.shields.io/badge/SoundCloud-FF3300?style=for-the-badge&logo=soundcloud&logoColor=white" />
+<div align="center">
+<!-- Typing SVG -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=0078D4&center=true&vCenter=true&width=700&lines=Hi+there%2C+I'm+Francis+Cruz+%F0%9F%91%8B;Azure+Cloud+%26+DevOps+Engineer+%E2%98%81%EF%B8%8F;Microsoft+Certified+Trainer+(MCT)+%F0%9F%8E%93;Building+Secure+%26+Scalable+Cloud+Solutions" alt="Typing SVG" /></a>
  
-<code><img height="50" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"></code>
-<code><img height="50" src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg"></code>
-<code><img height="50" src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"></code>
-<code><img height="50" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg"></code>
-<code><img height="50" src="https://www.vectorlogo.zone/logos/socketio/socketio-ar21.svg"></code>
-<code><img height="50" src="https://www.vectorlogo.zone/logos/github/github-ar21.svg"></code>
-<code><img height="50" src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg"></code>
-<code><img height="50" src="https://www.vectorlogo.zone/logos/heroku/heroku-ar21.svg"></code>
-<code><img height="50" src="https://www.vectorlogo.zone/logos/netlify/netlify-ar21.svg"></code>
-<code><img height="50" src="https://www.vectorlogo.zone/logos/firebase/firebase-ar21.svg"></code>
+<br/>
+<a href="https://github.com/ajf013?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?color=0078D4&label=Repositories&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fajf013&logo=github&logoColor=white&style=flat" alt="GitHub Repositories" /></a>
+&nbsp;
+<img src="https://img.shields.io/badge/Joined-2020%20(%7E6%20Years)-0078D4?style=flat&logo=github&logoColor=white" alt="Joined GitHub" />
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=ajf013&label=Profile%20Views&color=0078D4&style=flat" alt="Profile Views" />
+&nbsp;
+<a href="https://github.com/ajf013"><img src="https://img.shields.io/github/followers/ajf013?label=Followers&style=flat&color=0078D4" alt="GitHub followers" /></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/ajf013-francis-cruz/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0078D4?style=flat&logo=linkedin" alt="LinkedIn" /></a>
+</div>
 
-#### Hire me
-- <a href="https://www.goodcv.com/cv/b412100c4b4cf25d2e3a3c35c4430289"><img src="https://img.shields.io/badge/-Resume-3423A6?style=flat-square&logo=Google-Chrome&logoColor=white"/></a>
-- <a href="mailto:cruzmma2021@gamil.com"><img src="https://img.shields.io/badge/-cruzmma2021@gmail.com-D14836?style=flat-square&logo=Gmail&logoColor=white"/></a>
+---
 
+## 👨‍💻 About Me
+
+```yaml
+Name:        Francis Ponnu Cruz I
+Title:       Azure Cloud & DevOps Engineer | Microsoft Certified Trainer (MCT)
+Company:     Wipro
+Location:    Coimbatore, Tamil Nadu, India
+Education:
+  - M.Tech in Computing Systems & Infrastructure — BITS Pilani (Wipro WILP, 2025)
+  - BCA — KG College of Arts & Science, Bharathiar University (2021)
+Focus:       Cloud Architecture · DevOps · Security · Automation · SRE
+Status:      🟢 Open to new opportunities
+```
+
+I'm a results-driven Azure Cloud & DevOps Engineer with **4+ years** of experience designing, automating, and securing enterprise-scale cloud infrastructure. I specialize in Infrastructure as Code, CI/CD pipelines, cloud governance, and AI-powered cloud solutions. I enjoy turning complex cloud challenges into clean, automated, and cost-efficient architectures.
+
+---
+
+## 🛠️ Tech Stack & Skills
+
+### ☁️ Cloud Platforms
+![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Alibaba Cloud](https://img.shields.io/badge/Alibaba_Cloud-FF6A00?style=for-the-badge&logo=alibabacloud&logoColor=white)
+
+### ⚙️ DevOps & IaC
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D4?style=for-the-badge&logo=azure-devops&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![ARM Templates](https://img.shields.io/badge/ARM_Templates-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+
+### 🌐 Web Frameworks & Libraries
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### 💻 Programming & Scripting
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+### 🔐 Identity & Security
+![Microsoft Entra ID](https://img.shields.io/badge/Microsoft_Entra_ID-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Azure Key Vault](https://img.shields.io/badge/Azure_Key_Vault-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Microsoft Defender](https://img.shields.io/badge/Microsoft_Defender-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+
+### 📊 Monitoring & Operations
+![Azure Monitor](https://img.shields.io/badge/Azure_Monitor-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
+![ServiceNow](https://img.shields.io/badge/ServiceNow-00C651?style=for-the-badge&logo=servicenow&logoColor=white)
+
+### 🤖 AI & Serverless
+![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=for-the-badge&logo=openai&logoColor=white)
+![Azure Functions](https://img.shields.io/badge/Azure_Functions-0078D4?style=for-the-badge&logo=azure-functions&logoColor=white)
+![Logic Apps](https://img.shields.io/badge/Logic_Apps-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+
+---
+
+## 📂 Projects
+
+### 🤖 ATS Resume Analyzer
+> *Analyze your resume for ATS compatibility, skill gaps & get actionable improvement suggestions — powered by Azure AI.*
+>
+> [![Live App](https://img.shields.io/badge/🌐_Live_App-atsscore.fcruz.org-0078D4?style=for-the-badge)](https://atsscore.fcruz.org/) [![GitHub Repo](https://img.shields.io/badge/GitHub-ATS--Resume--Score--Checker-181717?style=for-the-badge&logo=github)](https://github.com/ajf013/ATS-Resume-Score-Checker)
+
+#### Tech Stack:
+
+| Tech Used | Version | Description of Use |
+| :--- | :--- | :--- |
+| **Azure OpenAI** | API | NLP-powered resume evaluation |
+| **Azure Functions (Python)** | v3.x | Serverless REST API backend |
+| **Azure Document Intelligence** | API | PDF & DOCX parsing |
+| **Azure Key Vault** | API | Zero-credential-exposure secrets management (with Managed Identity) |
+| **React** | v18.x | Frontend with real-time analysis |
+| **Azure Static Web Apps** | Cloud | Global deployment |
+
+---
+
+### 🛡️ CloudSentry
+> *AI-powered security scanner for Azure subscriptions.*
+>
+> [![Live App](https://img.shields.io/badge/🌐_Live_App-cloudsentry.fcruz.org-0078D4?style=for-the-badge)](https://cloudsentry.fcruz.org/) [![GitHub Repo](https://img.shields.io/badge/GitHub-CloudSentry-181717?style=for-the-badge&logo=github)](https://github.com/ajf013/CloudSentry)
+
+#### Tech Stack:
+
+| Tech Used | Version | Description of Use |
+| :--- | :--- | :--- |
+| **Next.js** | v15.x | Web framework for frontend and serverless routing |
+| **TypeScript** | v5.x | Strictly typed application development |
+| **Clerk** | v5.x | User authentication and session management |
+| **Gemini** | v2.5 | Dual-AI security analysis and compliance scanning |
+| **Azure OpenAI** | API | NLP analysis of subscription security posture |
+
+---
+
+### 💰 Azure Financial Insights
+> *Cloud spend management dashboard with glassmorphism UI.*
+>
+> [![Live App](https://img.shields.io/badge/🌐_Live_App-finops.fcruz.org-0078D4?style=for-the-badge)](https://finops.fcruz.org/) [![GitHub Repo](https://img.shields.io/badge/GitHub-Azure--Financial--Insights-181717?style=for-the-badge&logo=github)](https://github.com/ajf013/Azure-Financial-Insights)
+
+#### Tech Stack:
+
+| Tech Used | Version | Description of Use |
+| :--- | :--- | :--- |
+| **React.js** | v18.x | Frontend single-page application |
+| **Tailwind CSS** | v3.x | Utility-first CSS styling for custom glassmorphism components |
+| **Azure Cost Management API** | API | Real-time budget enforcement and cloud cost calculations |
+
+---
+
+### 💬 CruzOps AI
+> *ChatGPT-like conversational scripting assistant for Azure made by F_Cruz.*
+>
+> [![Live App](https://img.shields.io/badge/🌐_Live_App-pscli.fcruz.org-0078D4?style=for-the-badge)](https://pscli.fcruz.org/) [![GitHub Repo](https://img.shields.io/badge/GitHub-CruzOps--AI-181717?style=for-the-badge&logo=github)](https://github.com/ajf013/CruzOps-AI)
+
+#### Tech Stack:
+
+| Tech Used | Version | Description of Use |
+| :--- | :--- | :--- |
+| **React.js** | v18.x | Chat interface frontend |
+| **JavaScript** | ES6+ | Client-side scripting and UI logic |
+| **Azure OpenAI** | API | Conversational generation of administration scripts |
+| **Azure CLI/PowerShell** | API | Execution target for generated administration scripts |
+
+---
+
+### 💻 UniCompile
+> *Multi-language online compiler running online and offline.*
+>
+> [![Live App](https://img.shields.io/badge/🌐_Live_App-unicompile.fcruz.org-0078D4?style=for-the-badge)](https://unicompile.fcruz.org/) [![GitHub Repo](https://img.shields.io/badge/GitHub-UniCompile-181717?style=for-the-badge&logo=github)](https://github.com/ajf013/UniCompile)
+
+#### Tech Stack:
+
+| Tech Used | Version | Description of Use |
+| :--- | :--- | :--- |
+| **Next.js** | v15.x | Web framework for hosting and page rendering |
+| **Monaco Editor** | v0.x | Code editor component with syntax highlighting |
+| **WebAssembly** | WASM | Client-side sandboxed execution of compiler binaries |
+| **TypeScript** | v5.x | Strongly-typed app development |
+
+---
+
+### 📌 Sticky Notes App
+> *Real-time synchronized dashboard notes manager.*
+>
+> [![Live App](https://img.shields.io/badge/🌐_Live_App-sticky--notes.fcruz.org-0078D4?style=for-the-badge)](https://sticky-notes.fcruz.org/) [![GitHub Repo](https://img.shields.io/badge/GitHub-sticky--notes--app-181717?style=for-the-badge&logo=github)](https://github.com/ajf013/sticky-notes-app)
+
+#### Tech Stack:
+
+| Tech Used | Version | Description of Use |
+| :--- | :--- | :--- |
+| **React.js** | v18.x | Interactive sticky notes user interface |
+| **Supabase** | v2.x | Real-time backend database sync |
+| **CSS3** | Native | Visual styling and card layout |
+| **JavaScript** | ES6+ | State management and event handlers |
+
+---
+
+### 🔄 Converter App
+> *Privacy-friendly offline browser file conversion tool.*
+>
+> [![Live App](https://img.shields.io/badge/🌐_Live_App-convertme.fcruz.org-0078D4?style=for-the-badge)](https://convertme.fcruz.org/) [![GitHub Repo](https://img.shields.io/badge/GitHub-converter--app-181717?style=for-the-badge&logo=github)](https://github.com/ajf013/converter-app)
+
+#### Tech Stack:
+
+| Tech Used | Version | Description of Use |
+| :--- | :--- | :--- |
+| **React** | v18.x | Frontend interface for file upload and downloading |
+| **Vite** | v5.x | Build tool and dev server |
+| **WebAssembly** | WASM | Client-side format conversion for images, docs, and audio |
+| **JavaScript** | ES6+ | File reading and conversion logic |
+
+---
+
+### 🎵 Music Player React
+> *Advanced audio player with YouTube sync and loop controls.*
+>
+> [![Live App](https://img.shields.io/badge/🌐_Live_App-music.fcruz.org-0078D4?style=for-the-badge)](https://music.fcruz.org/) [![GitHub Repo](https://img.shields.io/badge/GitHub-musicplayerreact-181717?style=for-the-badge&logo=github)](https://github.com/ajf013/musicplayerreact)
+
+#### Tech Stack:
+
+| Tech Used | Version | Description of Use |
+| :--- | :--- | :--- |
+| **React** | v18.x | Custom audio player interface |
+| **Vite** | v5.x | Build tool and dev server |
+| **Semantic UI** | v2.x | Component styling framework |
+| **YouTube Web API** | API | Playing YouTube audio and video streams |
+
+---
+
+### 📂 Francis AJF Portfolio
+> *Personal portfolio website showcasing skills & certificates.*
+>
+> [![Live App](https://img.shields.io/badge/🌐_Live_App-fcruz.org-0078D4?style=for-the-badge)](https://fcruz.org) [![GitHub Repo](https://img.shields.io/badge/GitHub-francis--ajf--portfolio-181717?style=for-the-badge&logo=github)](https://github.com/ajf013/francis-ajf-portfolio)
+
+#### Tech Stack:
+
+| Tech Used | Version | Description of Use |
+| :--- | :--- | :--- |
+| **React.js** | v18.x | Single-page portfolio UI |
+| **Node.js** | v20.x | Backend server and build environment |
+| **JavaScript** | ES6+ | Dynamic timeline animations and rendering logic |
+| **CSS3** | Native | Layout styling and animations |
+
+---
+
+
+## 📜 Certifications
+
+| Badge | Certification |
+|-------|--------------|
+| ![AZ-305](https://img.shields.io/badge/AZ--305-Azure_Solutions_Architect_Expert-0078D4?style=flat-square&logo=microsoft-azure) | Microsoft Certified: Azure Solutions Architect Expert |
+| ![AZ-104](https://img.shields.io/badge/AZ--104-Azure_Administrator_Associate-0078D4?style=flat-square&logo=microsoft-azure) | Microsoft Certified: Azure Administrator Associate |
+| ![AZ-500](https://img.shields.io/badge/AZ--500-Azure_Security_Engineer_Associate-0078D4?style=flat-square&logo=microsoft-azure) | Microsoft Certified: Azure Security Engineer Associate |
+| ![AZ-700](https://img.shields.io/badge/AZ--700-Azure_Network_Engineer_Associate-0078D4?style=flat-square&logo=microsoft-azure) | Microsoft Certified: Azure Network Engineer Associate |
+| ![AZ-900](https://img.shields.io/badge/AZ--900-Azure_Fundamentals-0078D4?style=flat-square&logo=microsoft-azure) | Microsoft Certified: Azure Fundamentals |
+| ![DP-900](https://img.shields.io/badge/DP--900-Azure_Data_Fundamentals-0078D4?style=flat-square&logo=microsoft-azure) | Microsoft Certified: Azure Data Fundamentals |
+| ![CLF-001](https://img.shields.io/badge/CLF--001-AWS_Cloud_Practitioner-232F3E?style=flat-square&logo=amazon-aws) | AWS Certified: Cloud Practitioner |
+| ![MCT](https://img.shields.io/badge/MCT-Microsoft_Certified_Trainer-0078D4?style=flat-square&logo=microsoft) | Microsoft Certified Trainer (MCT) |
+
+---
+
+## 📊 Stats & Analytics
 
 #### Profile Visits 
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=ajf013.ajf013)
+![visitors](https://api.visitorbadge.io/api/visitors?path=ajf013.ajf013)
 
 More stuff about me
 
 <br >
-
-I love sharing knowledge and putting tutorials, courses and posts together for helping other developers, and that's why Webshine learning website exists!
 
 #### Coding Stats
 
@@ -181,14 +264,16 @@ Markdown     1 hr 44 mins    ██░░░░░░░░░░░░░░░
 <!--END_SECTION:waka-->
 
 #### Github Stats 
-<img height="137px" src="https://github-readme-stats.vercel.app/api?username=ajf013&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&line_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" /><!-- wi*quL3fcV --><img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ajf013&hide=html&hide_title=true&hide_border=true&layout=compact&langs_count=6&exclude_repo=comp426,Redventures-Movie-Quotes&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" /></a><img src ="https://activity-graph.herokuapp.com/graph?username=ajf013&bg_color=ffffff&color=6600ff&line=0400ff&point=03d3d&area=true&hide_border=true" width="420" height="165" >
+<img height="137px" src="https://github-readme-stats-fast.vercel.app/api?username=ajf013&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&line_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" />
+<img height="137px" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ajf013&hide=html&hide_title=true&hide_border=true&layout=compact&langs_count=6&exclude_repo=comp426,Redventures-Movie-Quotes&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ajf013&bg_color=ffffff&color=6600ff&line=0400ff&point=03d3d&area=true&hide_border=true" width="420" height="165" />
 
 
 ### GITHUB TROPHIES
 [![trophy](https://github-profile-trophy.vercel.app/?username=ajf013)](https://github.com/ryo-ma/github-profile-trophy)<br>
 
 
-![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=ajf013)  
+![GitHub streak stats](https://streak-stats.demolab.com/?user=ajf013)
 
 <div align="right">
 <br/>
@@ -198,4 +283,35 @@ Markdown     1 hr 44 mins    ██░░░░░░░░░░░░░░░
 <br/>
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/jeni13franc@gmail.com)
 
+</div>
+
+---
+
+## 🎯 What I'm Currently Focused On
+
+- 🏗️ Deepening expertise in **Cloud Solutions Architecture** (working toward AZ-305 real-world projects)
+- 🔁 Expanding **DevOps & SRE** practices — GitOps, observability, and reliability engineering
+- 🤖 Exploring **Azure AI Services** and building intelligent cloud-native applications
+- 📖 Upskilling in **FinOps** and cloud cost governance at scale
+- 🌐 **Open to new roles** in Azure Cloud, DevOps, and Cloud Architecture
+
+---
+
+## 📬 Let's Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Francis_Cruz-0078D4?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ajf013-francis-cruz/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-fcruz.org-0078D4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://fcruz.org)
+[![ATS Tool](https://img.shields.io/badge/ATS_Analyzer-atsscore.fcruz.org-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)](https://atsscore.fcruz.org)
+[![Email](https://img.shields.io/badge/Email-fcruz1301@icloud.com-0078D4?style=for-the-badge&logo=apple&logoColor=white)](mailto:fcruz1301@icloud.com)
+
+</div>
+
+---
+
+<div align="center">
+<i>"Automate everything. Secure everything. Scale everything."</i>
+<br/><br/>
+⭐ <b>Always open to networking, collaboration, and cloud-focused opportunities!</b> 🚀
 </div>
