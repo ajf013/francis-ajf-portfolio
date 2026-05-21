@@ -6,46 +6,49 @@ import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
 
 // Projects images
-import L_WeatherApp from "../../assets/img/projects/weather_app.png";
+import L_CloudSentry from "../../assets/img/projects/cloudsentry.png";
+import L_CruzOpsAI from "../../assets/img/projects/cruzops-ai.png";
+import L_AzureFinancialInsights from "../../assets/img/projects/azure-financial-insights.png";
 import L_Expenseemitracker from "../../assets/img/projects/expense-emi-tracker.png";
-import L_ImageSearch from "../../assets/img/projects/image-search-download.png";
+import L_WeatherApp from "../../assets/img/projects/weather_app.png";
 import L_JobsSearch from "../../assets/img/projects/Job-Search-Apply.png";
-import L_Githubuserrepo from "../../assets/img/projects/githubuserrepo.webp";
-import L_RandomQuoteGenerators from "../../assets/img/projects/quote_generator_app.png";
 
 // Tech stack icons
 import L_REACT from "../../assets/img/skills/react.svg";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
-import L_GIT from "../../assets/img/skills/github-api.svg";
+import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
+import L_AZURE from "../../assets/img/skills/azure.svg";
+import L_AZURE_DEVOPS from "../../assets/img/skills/azure-devops.svg";
+import L_TERRAFORM from "../../assets/img/skills/terraform.svg";
 
 import "./project-timeline.style.css";
 
 const projectsData = [
   {
-    title: "Weather App",
-    description: "Real-time weather data for over 200,000 cities worldwide. Features dynamic backgrounds that change based on conditions.",
-    image: L_WeatherApp,
-    tech: [L_HTML5, L_CSS3, L_JAVASCRIPT, L_REACT],
-    live: "https://weather.fcruz.org",
-    source: "https://github.com/ajf013/Weather-app-react"
+    title: "CloudSentry",
+    description: "A cloud security platform evaluating posture, compliance alerts, and risk assessments using dual AI engines (Azure OpenAI and Gemini).",
+    image: L_CloudSentry,
+    tech: [L_REACT, L_TYPESCRIPT, L_AZURE, L_AZURE_DEVOPS],
+    live: "https://cloudsentry.fcruz.org",
+    source: "https://github.com/ajf013/CloudSentry"
   },
   {
-    title: "GitHub User Repo",
-    description: "Search and explore public GitHub repositories. Integrates GitHub API for real-time profile and repo information.",
-    image: L_Githubuserrepo,
-    tech: [L_HTML5, L_CSS3, L_REACT, L_GIT],
-    live: "https://githubuserrepo.netlify.app/",
-    source: "https://github.com/ajf013/Github_user_repo"
+    title: "CruzOps-AI",
+    description: "An AIOps chat assistant querying Azure infrastructure resources and generating optimized Terraform modules & scripts in real-time.",
+    image: L_CruzOpsAI,
+    tech: [L_REACT, L_JAVASCRIPT, L_AZURE, L_TERRAFORM],
+    live: "https://github.com/ajf013/CruzOps-AI",
+    source: "https://github.com/ajf013/CruzOps-AI"
   },
   {
-    title: "Random Quote Generator",
-    description: "Modern inspiration app with category filtering, language support, and dark mode. Fully installable PWA.",
-    image: L_RandomQuoteGenerators,
-    tech: [L_HTML5, L_CSS3, L_REACT],
-    live: "https://randomquotegeneratorapp.netlify.app",
-    source: "https://github.com/ajf013/random-quote-generator-react.git"
+    title: "Azure Financial Insights",
+    description: "A FinOps governance dashboard tracking resource spend, budgeting, forecasts, and generating cost-saving right-sizing suggestions.",
+    image: L_AzureFinancialInsights,
+    tech: [L_REACT, L_JAVASCRIPT, L_AZURE, L_AZURE_DEVOPS],
+    live: "https://insights.fcruz.org",
+    source: "https://github.com/ajf013/Azure-Financial-Insights"
   },
   {
     title: "Expense EMI Tracker",
@@ -56,12 +59,12 @@ const projectsData = [
     source: "https://github.com/ajf013/Expense-EMI-Tracker-React.git"
   },
   {
-    title: "Image Search & Download",
-    description: "Search for high-quality images via Pexels API and download them directly. Intuitive grid layout for easy browsing.",
-    image: L_ImageSearch,
+    title: "Weather App",
+    description: "Real-time weather data for over 200,000 cities worldwide. Features dynamic backgrounds that change based on conditions.",
+    image: L_WeatherApp,
     tech: [L_HTML5, L_CSS3, L_JAVASCRIPT, L_REACT],
-    live: "https://imagedownloader.fcruz.org",
-    source: "https://github.com/ajf013/image-search-download.git"
+    live: "https://weather.fcruz.org",
+    source: "https://github.com/ajf013/Weather-app-react"
   },
   {
     title: "Jobs Search & Apply",

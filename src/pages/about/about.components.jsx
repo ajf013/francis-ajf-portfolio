@@ -33,27 +33,27 @@ const About = () => {
               <h4>Core Identity</h4>
               <p>
                 Hi there! I’m <strong>Francis Cruz (MCT)</strong>. I am a <strong>Senior Project Engineer | Azure Administrator | DevOps Engineer</strong> at 
-                <strong> Wipro</strong>, specializing in architecting and managing high-performance, 
-                secure cloud infrastructures on Microsoft Azure.
+                <strong> Wipro</strong>, specializing in designing, automating, and securing robust enterprise-scale 
+                cloud infrastructures on Microsoft Azure.
               </p>
             </div>
 
             <div className="info-card" data-aos="zoom-in" data-aos-delay="200">
               <h4>Academic Excellence</h4>
               <p>
-                My foundation includes an <strong>M.Tech in Computing Systems and Infrastructure</strong> from 
-                <strong> BITS Pilani</strong>, completed through Wipro’s WILP. This blend of academic theory 
-                and hands-on enterprise experience allows me to solve complex infrastructure challenges with 
-                precision and scalability.
+                I hold an <strong>M.Tech in Computing Systems and Infrastructure</strong> from 
+                <strong> BITS Pilani</strong> (completed through Wipro’s WILP). This advanced foundation, combined 
+                with hands-on production experience, enables me to architect resilient cloud topologies and 
+                solve complex landing zone challenges.
               </p>
             </div>
 
             <div className="info-card" data-aos="zoom-in" data-aos-delay="300">
-              <h4>Technical Philosophy</h4>
+              <h4>Technical Focus</h4>
               <p>
-                I am dedicated to implementing <strong>DevOps best practices</strong>, Infrastructure as Code (IaC), 
-                and continuous optimization. As a <strong>Microsoft Certified Trainer (MCT)</strong>, I am passionate 
-                about building reliable solutions and mentoring the next generation of cloud engineers.
+                I specialize in <strong>Infrastructure as Code (IaC)</strong>, CI/CD automation, and zero-trust cloud 
+                governance. As a <strong>9x Azure Certified</strong> engineer and <strong>Microsoft Certified Trainer (MCT)</strong>, 
+                I am passionate about eliminating manual operational toil, optimizing cloud costs, and mentoring technical teams.
               </p>
             </div>
           </Col>

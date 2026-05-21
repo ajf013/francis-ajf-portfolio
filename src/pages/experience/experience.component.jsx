@@ -28,17 +28,17 @@ const Experience = () => {
                     <p className="text-white-50">Woolworths Group | Wipro</p>
                   </div>
                   <div className="exp-description">
-                    <strong>• Advanced Azure Administration:</strong> Led Level-2 cloud operations, provisioning and managing complex infrastructure including VMs, VNETs, Application Gateways, and NSGs.
+                    <strong>• Enterprise Cloud Operations:</strong> Managed high-availability workloads on Azure compute (Web Apps, VMSS), maintaining 99.9% service uptime and leading root-cause analysis (RCA) for critical incidents.
                     <br />
-                    <strong>• Identity & Access Governance:</strong> Managed Azure AD (Entra ID), RBAC, and Privileged Identity Management (PIM) to ensure zero-trust security.
+                    <strong>• Zero-Trust Identity Governance:</strong> Administered Microsoft Entra ID (Azure AD), configuring granular RBAC policies, Conditional Access, and Privileged Identity Management (PIM) to secure resources.
                     <br />
-                    <strong>• Infrastructure as Code (IaC):</strong> Contributed to automation scripts using Terraform and ARM templates for consistent resource deployment.
+                    <strong>• Infrastructure as Code & CI/CD:</strong> Developed modular IaC configurations using Terraform and Bicep, automating multi-environment deployments via Azure DevOps CI/CD pipelines.
                     <br />
-                    <strong>• Monitoring & Security:</strong> Configured Azure Monitor, Log Analytics, and Microsoft Sentinel to proactively track service health and security threats.
+                    <strong>• Proactive Security & Monitoring:</strong> Hardened security posture using Microsoft Defender for Cloud, Private Link, and Azure Monitor/Log Analytics for real-time alerting.
                     <br />
-                    <strong>• Performance Optimization:</strong> Analyzed Azure Advisor and Cost Management reports to implement rightsizing and cost-saving strategies.
+                    <strong>• Serverless Automation:</strong> Created automated operational runbooks, custom Azure Functions, and Logic Apps to reduce manual administration effort.
                     <br />
-                    <strong>• Mentoring:</strong> Acted as a technical point of contact, providing guidance and troubleshooting support to junior team members.
+                    <strong>• FinOps & Cost Optimization:</strong> Conducted cost-governance audits using Azure Cost Management and Azure Advisor, achieving significant budget savings through resource right-sizing and Reserved Instances.
                   </div>
                 </Card.Body>
               </Card>
