@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Card from "react-bootstrap/Card";
 import "./certifications.style.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import CertModal from "../../components/certifications/CertModal";
 
 // Import all certification images
 import AwsCloudPractitioner from "../../assets/img/certifications/aws-certified-cloud-practitioner.png";
@@ -20,6 +21,8 @@ import SecurityFundamentals from "../../assets/img/certifications/microsoft-cert
 import DesigningSolutions from "../../assets/img/certifications/az-305-designing-microsoft-azure-infrastructure-solutions.png";
 
 const Certifications = () => {
+  const [selectedCert, setSelectedCert] = useState(null);
+
   useEffect(() => {
     Aos.init({
       duration: 1500,
@@ -122,8 +125,6 @@ const Certifications = () => {
     }
   ];
 
-
-
   // Duplicate the list for seamless marquee effect
   const fullCertificationsList = [...certificationsList, ...certificationsList];
 
@@ -147,15 +148,24 @@ const Certifications = () => {
                     {cert.organization}
                   </Card.Subtitle>
                   <Card.Text>Certified on: {cert.date}</Card.Text>
-                  <a href={cert.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary cert-btn">
+                  <button 
+                    onClick={() => setSelectedCert(cert)} 
+                    className="btn btn-primary cert-btn w-100"
+                  >
                     View Certificate
-                  </a>
+                  </button>
                 </Card.Body>
               </Card>
             </div>
           ))}
         </div>
       </div>
+
+      <CertModal 
+        isOpen={selectedCert !== null} 
+        onClose={() => setSelectedCert(null)} 
+        cert={selectedCert} 
+      />
     </div>
   );
 };

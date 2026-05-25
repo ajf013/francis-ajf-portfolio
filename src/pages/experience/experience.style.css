@@ -70,18 +70,18 @@
 
 /* Experience Card Styling */
 .experience-card {
-    background: rgba(255, 255, 255, 0.05) !important;
+    background: rgba(15, 22, 40, 0.85) !important;
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(97, 218, 251, 0.2) !important;
     border-radius: 20px !important;
     color: white !important;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
     transition: all 0.3s ease !important;
 }
 
 .experience-card:hover {
     border-color: #61dafb !important;
-    box-shadow: 0 15px 40px rgba(97, 218, 251, 0.2) !important;
+    box-shadow: 0 15px 40px rgba(97, 218, 251, 0.4) !important;
 }
 
 .img-resize {

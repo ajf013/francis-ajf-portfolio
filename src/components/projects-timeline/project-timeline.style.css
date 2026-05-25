@@ -198,3 +198,50 @@
         font-size: 0.75rem;
     }
 }
+
+/* Interactivity Graph Styles */
+.project-card-container.dimmed {
+    opacity: 0.25;
+    filter: grayscale(90%) blur(0.5px);
+    transform: scale(0.96);
+    pointer-events: none;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.project-card-container.highlighted {
+    opacity: 1;
+    filter: none;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.project-card-container.highlighted .project-card {
+    border-color: #61dafb;
+    box-shadow: 0 0 25px rgba(97, 218, 251, 0.4);
+}
+
+/* More Projects Loading Card Styles */
+.more-projects-card {
+    background: rgba(15, 22, 40, 0.4) !important;
+    border: 1px dashed rgba(97, 218, 251, 0.4) !important;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-projects-spinner {
+    font-size: 2.8rem;
+    color: #61dafb !important;
+    filter: drop-shadow(0 0 10px rgba(97, 218, 251, 0.6));
+    animation: fa-spin 4s linear infinite;
+}
+
+.more-projects-pipeline-badge .badge {
+    background: rgba(97, 218, 251, 0.15) !important;
+    border: 1px solid rgba(97, 218, 251, 0.3) !important;
+    color: #61dafb !important;
+    font-size: 0.75rem;
+    padding: 6px 14px;
+    border-radius: 50px;
+}

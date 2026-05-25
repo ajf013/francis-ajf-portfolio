@@ -11,7 +11,6 @@ import L_CruzOpsAI from "../../assets/img/projects/cruzops-ai.png";
 import L_AzureFinancialInsights from "../../assets/img/projects/azure-financial-insights.png";
 import L_ConverterApp from "../../assets/img/projects/converter-app.png";
 import L_StickyNotesApp from "../../assets/img/projects/sticky-notes-app.png";
-import L_Expenseemitracker from "../../assets/img/projects/expense-emi-tracker.png";
 import L_WeatherApp from "../../assets/img/projects/weather_app.png";
 import L_JobsSearch from "../../assets/img/projects/Job-Search-Apply.png";
 
@@ -70,14 +69,6 @@ const projectsData = [
     source: "https://github.com/ajf013/sticky-notes-app"
   },
   {
-    title: "Expense EMI Tracker",
-    description: "A comprehensive financial tool to track daily expenses and calculate EMIs for home, car, and personal loans.",
-    image: L_Expenseemitracker,
-    tech: [L_HTML5, L_CSS3, L_JAVASCRIPT, L_REACT],
-    live: "https://expense.fcruz.org",
-    source: "https://github.com/ajf013/Expense-EMI-Tracker-React.git"
-  },
-  {
     title: "Weather App",
     description: "Real-time weather data for over 200,000 cities worldwide. Features dynamic backgrounds that change based on conditions.",
     image: L_WeatherApp,
@@ -95,7 +86,7 @@ const projectsData = [
   }
 ];
 
-const ProjectTimeLine = () => {
+const ProjectTimeLine = ({ activeSkill }) => {
   useEffect(() => {
     Aos.init({ duration: 1500 });
   }, []);
@@ -107,17 +98,20 @@ const ProjectTimeLine = () => {
       <h1 data-aos="zoom-in" className="text-center font-details-b pb-5">PROJECTS</h1>
       <Container>
         <div className="project-grid">
-          {projectsData.map((project, index) => (
-            <div key={index} data-aos="fade-up" data-aos-delay={index * 100} className="project-item-wrapper">
-              <Tilt
-                tiltMaxAngleX={10}
-                tiltMaxAngleY={10}
-                perspective={1000}
-                transitionSpeed={1000}
-                scale={1.02}
-                disableTilt={isMobile}
-                className="project-card-container"
-              >
+          {projectsData.map((project, index) => {
+            const isMatching = !activeSkill || project.tech.some(icon => icon === activeSkill.imgSrc);
+
+            return (
+              <div key={index} data-aos="fade-up" data-aos-delay={index * 100} className="project-item-wrapper">
+                <Tilt
+                  tiltMaxAngleX={10}
+                  tiltMaxAngleY={10}
+                  perspective={1000}
+                  transitionSpeed={1000}
+                  scale={1.02}
+                  disableTilt={isMobile}
+                  className={`project-card-container ${isMatching ? "highlighted" : "dimmed"}`}
+                >
                 <div className="project-card">
                   <img src={project.image} alt={project.title} className="project-image" />
                   <div className="project-overlay">
@@ -141,7 +135,27 @@ const ProjectTimeLine = () => {
               </Tilt>
               <h3 className="project-card-title-external">{project.title}</h3>
             </div>
-          ))}
+          );
+        })}
+
+          {/* More Projects Loading Card */}
+          <div data-aos="fade-up" data-aos-delay={projectsData.length * 100} className="project-item-wrapper">
+            <div className="project-card-container highlighted">
+              <div className="project-card more-projects-card d-flex flex-column align-items-center justify-content-center text-center p-4">
+                <div className="more-projects-icon-wrapper mb-3">
+                  <i className="fas fa-cog more-projects-spinner"></i>
+                </div>
+                <h3 className="text-white font-weight-bold" style={{ fontSize: "1.4rem" }}>More Projects</h3>
+                <p className="text-white-50 px-3 mt-2" style={{ fontSize: "0.85rem", lineHeight: "1.4" }}>
+                  Additional cloud architectures and automation pipelines are in the deployment phase.
+                </p>
+                <div className="more-projects-pipeline-badge mt-3">
+                  <span className="badge">Pipeline Active</span>
+                </div>
+              </div>
+            </div>
+            <h3 className="project-card-title-external">Deploying...</h3>
+          </div>
         </div>
       </Container>
     </div>

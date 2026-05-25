@@ -1,0 +1,139 @@
+.cert-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(10, 15, 30, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  padding: 20px;
+  animation: fadeInModal 0.25s ease-out;
+}
+
+.cert-modal-content {
+  background: rgba(20, 28, 48, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+  border-radius: 24px;
+  padding: 40px;
+  max-width: 800px;
+  width: 100%;
+  position: relative;
+  animation: scaleInModal 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  color: white;
+}
+
+.cert-modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 20px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.cert-modal-close:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+  transform: rotate(90deg);
+}
+
+/* Badge Visuals */
+.cert-modal-badge-container {
+  display: inline-block;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.cert-modal-badge {
+  max-height: 220px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 15px rgba(0, 191, 255, 0.3));
+}
+
+/* Details Section */
+.cert-modal-details {
+  text-align: left;
+}
+
+.cert-modal-org {
+  display: inline-block;
+  font-size: 0.85rem;
+  background: #61dafb;
+  color: #212121;
+  padding: 3px 12px;
+  border-radius: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+
+.cert-modal-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #ffffff;
+}
+
+.cert-modal-date {
+  font-size: 0.95rem;
+}
+
+.cert-modal-skills-list {
+  list-style: none;
+}
+
+.cert-modal-skills-list li {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: flex-start;
+}
+
+.cert-modal-skills-list li i {
+  margin-top: 4px;
+}
+
+/* Keyframes */
+@keyframes fadeInModal {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleInModal {
+  from { transform: scale(0.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .cert-modal-content {
+    padding: 30px 20px;
+    margin: 10px;
+  }
+  .cert-modal-title {
+    font-size: 1.4rem;
+  }
+  .cert-modal-badge {
+    max-height: 150px;
+  }
+}

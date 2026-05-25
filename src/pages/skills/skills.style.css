@@ -65,6 +65,13 @@
   box-shadow: 0 5px 15px rgba(97, 218, 251, 0.2);
 }
 
+.skill-pill.active-skill {
+  background: rgba(97, 218, 251, 0.25) !important;
+  border-color: #61dafb !important;
+  box-shadow: 0 0 20px rgba(97, 218, 251, 0.4);
+  transform: scale(1.05) translateY(-2px);
+}
+
 .skill-icon {
   width: 30px;
   height: 30px;

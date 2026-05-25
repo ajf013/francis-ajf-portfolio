@@ -6,7 +6,7 @@ import Image from "react-bootstrap/Image";
 import "./skills.style.css";
 import { skills } from "./skills-data";
 
-const Skills = () => {
+const Skills = ({ activeSkill, setActiveSkill }) => {
   useEffect(() => {
     Aos.init({ duration: 1500 });
   }, []);
@@ -45,7 +45,15 @@ const Skills = () => {
       <div data-aos="zoom-in" className="skill-marquee-container mb-4">
         <div className="skill-marquee-content scroll-left">
           {fullUpperRow.map((skill, index) => (
-            <div className="skill-pill" key={index}>
+            <div 
+              className={`skill-pill ${activeSkill?.skillName === skill.skillName ? "active-skill" : ""}`} 
+              key={index}
+              onClick={(e) => {
+                e.preventDefault();
+                setActiveSkill(activeSkill?.skillName === skill.skillName ? null : skill);
+              }}
+              style={{ cursor: "pointer" }}
+            >
               <span className="category-tag">{skill.category}</span>
               <a className="text-white text-decoration-none d-flex align-items-center" href={skill.link} target="_blank" rel="noopener noreferrer">
                 <Image src={skill.imgSrc} alt={skill.imgAltText} className="skill-icon" />
@@ -60,7 +68,15 @@ const Skills = () => {
       <div data-aos="zoom-in" className="skill-marquee-container">
         <div className="skill-marquee-content scroll-right">
           {fullLowerRow.map((skill, index) => (
-            <div className="skill-pill" key={index}>
+            <div 
+              className={`skill-pill ${activeSkill?.skillName === skill.skillName ? "active-skill" : ""}`} 
+              key={index}
+              onClick={(e) => {
+                e.preventDefault();
+                setActiveSkill(activeSkill?.skillName === skill.skillName ? null : skill);
+              }}
+              style={{ cursor: "pointer" }}
+            >
               <span className="category-tag">{skill.category}</span>
               <a className="text-white text-decoration-none d-flex align-items-center" href={skill.link} target="_blank" rel="noopener noreferrer">
                 <Image src={skill.imgSrc} alt={skill.imgAltText} className="skill-icon" />
