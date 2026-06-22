@@ -26,12 +26,13 @@
 .timeline-section::after {
     content: '';
     position: absolute;
-    width: 4px;
-    background-color: rgba(97, 218, 251, 0.3);
+    width: 2px;
+    background-color: rgba(10, 132, 255, 0.2);
     top: 0;
     bottom: 0;
     left: 50%;
-    margin-left: -2px;
+    margin-left: -1px;
+    box-shadow: 0 0 8px rgba(10, 132, 255, 0.15);
 }
 
 .experience-item {
@@ -45,15 +46,22 @@
 .experience-item::after {
     content: '';
     position: absolute;
-    width: 20px;
-    height: 20px;
-    right: -10px;
-    background-color: #1a1a1a;
-    border: 4px solid #61dafb;
-    top: 30px;
+    width: 16px;
+    height: 16px;
+    right: -8px;
+    background-color: #080612;
+    border: 3px solid var(--ios-blue);
+    top: 32px;
     border-radius: 50%;
     z-index: 1;
-    box-shadow: 0 0 10px rgba(97, 218, 251, 0.8);
+    box-shadow: 0 0 12px var(--ios-blue);
+    transition: all 0.3s ease;
+}
+
+.experience-item:hover::after {
+    background-color: var(--ios-teal);
+    transform: scale(1.2);
+    box-shadow: 0 0 18px var(--ios-teal);
 }
 
 .left {
@@ -65,51 +73,81 @@
 }
 
 .right::after {
-    left: -10px;
+    left: -8px;
 }
 
 /* Experience Card Styling */
 .experience-card {
-    background: rgba(15, 22, 40, 0.85) !important;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(97, 218, 251, 0.2) !important;
-    border-radius: 20px !important;
+    background: rgba(255, 255, 255, 0.02) !important;
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--glass-border) !important;
+    border-top-color: var(--glass-border-highlight) !important;
+    border-radius: 24px !important;
     color: white !important;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
-    transition: all 0.3s ease !important;
+    box-shadow: 
+      inset 0 1px 1px rgba(255, 255, 255, 0.1),
+      var(--glass-shadow) !important;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    overflow: hidden;
+}
+
+.experience-card .card-header {
+    background: rgba(255, 255, 255, 0.01) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+    padding: 15px;
+}
+
+.experience-card .card-body {
+    padding: 30px 25px;
 }
 
 .experience-card:hover {
-    border-color: #61dafb !important;
-    box-shadow: 0 15px 40px rgba(97, 218, 251, 0.4) !important;
+    background: rgba(255, 255, 255, 0.04) !important;
+    border-color: rgba(10, 132, 255, 0.3) !important;
+    border-top-color: rgba(100, 210, 255, 0.5) !important;
+    box-shadow: 
+      inset 0 1px 1px rgba(255, 255, 255, 0.15),
+      0 15px 45px rgba(10, 132, 255, 0.2) !important;
 }
 
 .img-resize {
-    width: 6em;
-    padding: 10px;
+    width: 5em;
+    padding: 5px;
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
 }
 
 .role-title {
-    color: #61dafb;
+    color: var(--ios-teal);
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
+    letter-spacing: 0.3px;
+    margin-top: 10px;
 }
 
 .duration-badge {
-    background: rgba(97, 218, 251, 0.15);
-    color: #61dafb;
-    padding: 5px 15px;
+    background: rgba(10, 132, 255, 0.12);
+    border: 1px solid rgba(10, 132, 255, 0.25);
+    color: var(--ios-teal);
+    padding: 6px 16px;
     border-radius: 50px;
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     font-weight: 600;
     display: inline-block;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
 .exp-description {
     font-size: 0.95rem;
-    line-height: 1.6;
+    line-height: 1.7;
     text-align: left;
+    color: #e2e8f0;
+}
+
+.exp-description strong {
+    color: #ffffff;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 768px) {
@@ -118,13 +156,16 @@
     }
     .experience-item {
         width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
+        padding-left: 60px;
+        padding-right: 15px;
     }
     .experience-item::after {
-        left: 21px;
+        left: 23px;
     }
     .right {
         left: 0%;
+    }
+    .experience-card .card-body {
+        padding: 20px 15px;
     }
 }

@@ -1,7 +1,16 @@
 .footer-style {
-    background-color: #101018f8;
-    color: #fff;
-    font-size: 1.5em;
-    border: 2px solid #101018f8;
-    border-top-left-radius: 3px;
-  }
+  background: rgba(10, 15, 30, 0.4) !important;
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 24px 0 !important;
+  transition: all 0.3s ease;
+}
+
+.footer-style:hover {
+  color: rgba(255, 255, 255, 0.95);
+}

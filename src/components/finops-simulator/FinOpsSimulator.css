@@ -11,19 +11,25 @@
 
 /* Glassmorphism Cards */
 .finops-card {
-  background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.07);
-  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  border-top-color: var(--glass-border-highlight);
+  border-radius: 24px;
   padding: 30px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 
+    inset 0 1px 1px rgba(255, 255, 255, 0.1),
+    var(--glass-shadow);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .finops-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+  border-color: rgba(255, 255, 255, 0.18);
+  box-shadow: 
+    inset 0 1px 1px rgba(255, 255, 255, 0.15),
+    0 15px 45px rgba(0, 0, 0, 0.45);
 }
 
 .height-100 {
@@ -31,48 +37,50 @@
 }
 
 .card-title-neon {
-  color: #61dafb;
+  color: var(--ios-teal);
   font-weight: 700;
-  font-size: 1.5rem;
-  letter-spacing: 1px;
-  text-shadow: 0 0 15px rgba(97, 218, 251, 0.3);
+  font-size: 1.35rem;
+  letter-spacing: 0.5px;
+  text-shadow: 0 2px 10px rgba(100, 210, 255, 0.25);
 }
 
 /* Workload Items */
 .workload-item {
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(255, 255, 255, 0.03);
-  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.01);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 18px;
   padding: 20px;
-  transition: background 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .workload-item:hover {
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.08);
 }
 
 .workload-icon {
   width: 44px;
   height: 44px;
-  border-radius: 10px;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 15px;
   font-size: 18px;
   color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-.bg-vm { background: linear-gradient(135deg, #0078d4, #00bfff); }
-.bg-db { background: linear-gradient(135deg, #b15dff, #ff5df4); }
-.bg-storage { background: linear-gradient(135deg, #ff9f43, #ff5252); }
+.bg-vm { background: linear-gradient(135deg, #0071e3, #64d2ff); }
+.bg-db { background: linear-gradient(135deg, #bf5af2, #ff375f); }
+.bg-storage { background: linear-gradient(135deg, #ffd60a, #ff9f0a); }
 
-/* Custom Checkbox Switches */
+/* iOS Switch Style Checkboxes */
 .toggle-switch-wrapper {
   cursor: pointer;
   user-select: none;
   font-size: 0.95rem;
-  padding: 4px 0;
+  padding: 6px 0;
   transition: transform 0.2s ease;
 }
 
@@ -81,86 +89,127 @@
 }
 
 .toggle-switch-wrapper input[type="checkbox"] {
-  width: 18px;
-  height: 18px;
-  accent-color: #61dafb;
-  margin-right: 12px;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 44px;
+  height: 24px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  position: relative;
   cursor: pointer;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  margin-right: 14px;
+  flex-shrink: 0;
+}
+
+.toggle-switch-wrapper input[type="checkbox"]::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+  top: 1px;
+  left: 1px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.toggle-switch-wrapper input[type="checkbox"]:checked {
+  background: var(--ios-green);
+  border-color: var(--ios-green);
+}
+
+.toggle-switch-wrapper input[type="checkbox"]:checked::after {
+  left: 21px;
+}
+
+.toggle-label {
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 /* Results Card & Chart */
 .results-card {
-  border: 1px solid rgba(97, 218, 251, 0.15);
-  background: rgba(10, 18, 36, 0.6);
+  border: 1px solid rgba(10, 132, 255, 0.25);
+  background: rgba(10, 15, 30, 0.6);
 }
 
 .cost-bar-track {
   width: 100%;
-  height: 14px;
+  height: 12px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 10px;
   overflow: hidden;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .cost-bar {
   height: 100%;
   border-radius: 10px;
-  transition: width 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .fill-baseline {
-  background: linear-gradient(90deg, #ff4d4d, #ff7675);
-  box-shadow: 0 0 10px rgba(255, 77, 77, 0.5);
+  background: linear-gradient(90deg, var(--ios-red), var(--ios-pink));
+  box-shadow: 0 0 10px rgba(255, 69, 58, 0.5);
 }
 
 .fill-optimized {
-  background: linear-gradient(90deg, #00bfff, #00e676);
-  box-shadow: 0 0 15px rgba(0, 230, 118, 0.5);
+  background: linear-gradient(90deg, var(--ios-teal), var(--ios-green));
+  box-shadow: 0 0 12px rgba(48, 209, 88, 0.5);
 }
 
 /* Savings Number Panel */
 .savings-display {
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(255, 255, 255, 0.015);
   border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 15px;
+  border-radius: 18px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);
 }
 
 .savings-amount {
   font-size: 3.5rem;
   font-weight: 800;
-  color: #00e676;
-  text-shadow: 0 0 20px rgba(0, 230, 118, 0.4);
+  color: var(--ios-green);
+  text-shadow: 0 0 20px rgba(48, 209, 88, 0.3);
   line-height: 1.1;
   margin: 5px 0;
-  background: linear-gradient(135deg, #00bfff, #00e676);
+  background: linear-gradient(135deg, var(--ios-teal), var(--ios-green));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .savings-percentage {
-  font-size: 0.95rem;
-  color: #00e676;
+  font-size: 0.9rem;
+  color: var(--ios-green);
   font-weight: 700;
-  background: rgba(0, 230, 118, 0.1);
-  padding: 4px 12px;
+  background: rgba(48, 209, 88, 0.12);
+  border: 1px solid rgba(48, 209, 88, 0.25);
+  padding: 4px 14px;
   border-radius: 30px;
   letter-spacing: 0.5px;
+  display: inline-block;
 }
 
 /* FinOps Insight Blurb */
 .finops-insight {
   display: flex;
   align-items: center;
-  background: rgba(255, 193, 7, 0.05);
-  border: 1px solid rgba(255, 193, 7, 0.15);
+  background: rgba(10, 132, 255, 0.05);
+  border: 1px solid rgba(10, 132, 255, 0.15);
   padding: 15px;
-  border-radius: 12px;
+  border-radius: 14px;
   font-size: 0.85rem;
   line-height: 1.5;
 }
 
 .insight-icon {
   font-size: 18px;
+  color: var(--ios-teal) !important;
   flex-shrink: 0;
 }
 
@@ -171,5 +220,20 @@
   }
   .savings-amount {
     font-size: 2.8rem;
+  }
+  .toggle-switch-wrapper {
+    font-size: 0.88rem;
+  }
+  .toggle-switch-wrapper input[type="checkbox"] {
+    width: 38px;
+    height: 22px;
+    margin-right: 10px;
+  }
+  .toggle-switch-wrapper input[type="checkbox"]::after {
+    width: 18px;
+    height: 18px;
+  }
+  .toggle-switch-wrapper input[type="checkbox"]:checked::after {
+    left: 17px;
   }
 }
