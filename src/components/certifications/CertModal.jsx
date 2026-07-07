@@ -21,6 +21,15 @@ const getSkillsMeasured = (name) => {
       "Monitor and back up Azure resources"
     ];
   }
+  if (n.includes("devops")) {
+    return [
+      "Configure processes and communications",
+      "Design and implement source control",
+      "Design and implement build and release pipelines",
+      "Develop a security and compliance plan",
+      "Implement an instrumentation strategy"
+    ];
+  }
   if (n.includes("security")) {
     return [
       "Manage identity and access (Microsoft Entra ID)",

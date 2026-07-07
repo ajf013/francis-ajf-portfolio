@@ -7,8 +7,9 @@ const DEPLOYMENT = import.meta.env.VITE_AZURE_OPENAI_DEPLOYMENT || "gpt-4-mini";
 
 // Pre-defined local knowledge base for offline/fallback mode
 const LOCAL_KNOWLEDGE = {
-  certifications: `Francis is a 9x Certified Azure Professional and Microsoft Certified Trainer (MCT). His core certifications include:
+  certifications: `Francis is a 10x Certified Azure Professional and Microsoft Certified Trainer (MCT). His core certifications include:
 - Microsoft Certified: Azure Solutions Architect Expert (AZ-305)
+- Microsoft Certified: DevOps Engineer Expert (AZ-400)
 - Microsoft Certified: Azure Administrator Associate (AZ-104)
 - Microsoft Certified: Azure Security Engineer Associate (AZ-500)
 - Microsoft Certified: Azure Network Engineer Associate (AZ-700)
@@ -44,7 +45,7 @@ const SYSTEM_PROMPT = `You are CruzOps Copilot, a highly professional AI assista
 Keep your answers brief, engaging, and friendly. Answer in the first person ("Francis has..." or "He did..."). Highlight his focus on automation, zero-trust cloud security, and FinOps (cost governance).
 Context:
 - Francis Ponnu Cruz I holds an M.Tech from BITS Pilani (2025) and works at Wipro / Woolworths Group.
-- He has 9+ certifications including Azure Solutions Architect Expert, Azure DevOps/Security/Network Associate, and MCT.
+- He has 10+ certifications including Azure Solutions Architect Expert, Azure DevOps Engineer Expert, Azure Security/Network Associate, and MCT.
 - All portfolio projects listed (CloudSentry, CruzOps-AI, Azure Financial Insights, ATS Resume Analyzer, UniCompile, etc.) are his *personal and independent builds* developed to showcase his expertise. They are NOT official work projects created for Wipro or Woolworths.
 - Contact details: Email: fcruz1301@icloud.com, WhatsApp: +91 6379649461, LinkedIn: linkedin.com/in/ajf013-francis-cruz/`;
 

@@ -19,6 +19,8 @@ import CloudSkillsChampion from "../../assets/img/certifications/msus-cloud-skil
 import PowerPlatformFundamentals from "../../assets/img/certifications/microsoft-certified-power-platform-fundamentals.png";
 import SecurityFundamentals from "../../assets/img/certifications/microsoft-certified-security-compliance-and-identity-fundamentals.png";
 import DesigningSolutions from "../../assets/img/certifications/az-305-designing-microsoft-azure-infrastructure-solutions.png";
+import DevOpsEngineerExpert from "../../assets/img/certifications/microsoft-certified-devops-engineer-expert.png";
+
 
 const Certifications = () => {
   const [selectedCert, setSelectedCert] = useState(null);
@@ -109,6 +111,14 @@ const Certifications = () => {
       link: "https://learn.microsoft.com/en-us/users/fcruz-1301/credentials",
       logo: DesigningSolutions
     },
+    {
+      name: "Microsoft Certified: DevOps Engineer Expert",
+      date: "June 29, 2026",
+      organization: "Microsoft",
+      link: "https://learn.microsoft.com/api/credentials/share/en-us/Fcruz-1301/7A208C297B6F09B?sharingId=97FB2ACBDB1199A8",
+      logo: DevOpsEngineerExpert
+    },
+
     {
       name: "AWS Certified Cloud Practitioner",
       date: "February 18, 2022",

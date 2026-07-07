@@ -2,7 +2,18 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "overrides": {
+    "cross-spawn": "^7.0.5",
+    "minimatch": "^3.1.5",
+    "path-to-regexp": "^0.1.12",
+    "esbuild": "^0.25.0",
+    "markdown-to-jsx": "^7.4.0",
+    "ajv": "^6.14.0",
+    "on-headers": "^1.1.0",
+    "vite": "^6.4.3"
+  },
   "dependencies": {
+    "@azure/msal-browser": "^5.16.0",
     "@merc/react-timeline": "^0.1.42",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -28,7 +39,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
-    "vite": "^5.2.11"
+    "sharp": "^0.35.3",
+    "vite": "^6.4.3"
   },
   "scripts": {
     "dev": "vite",

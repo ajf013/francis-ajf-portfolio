@@ -237,3 +237,146 @@
     left: 17px;
   }
 }
+
+/* Currency Selector & Formula styling */
+.currency-dropdown {
+  background: rgba(255, 255, 255, 0.04);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.currency-dropdown:hover, .currency-dropdown:focus {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--ios-teal);
+}
+
+.currency-dropdown option {
+  background: #0f141c;
+  color: white;
+}
+
+.calc-info-card {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.formula-box {
+  background: rgba(255, 255, 255, 0.015);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 16px;
+  padding: 20px;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.formula-box:hover {
+  background: rgba(255, 255, 255, 0.025);
+  border-color: rgba(10, 132, 255, 0.2);
+}
+
+.formula-tag {
+  display: inline-block;
+  background: rgba(100, 210, 255, 0.08);
+  border: 1px solid rgba(100, 210, 255, 0.2);
+  color: var(--ios-teal);
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-family: monospace;
+  font-weight: 600;
+}
+
+/* Live Azure Connection & Controls */
+.azure-connection-card {
+  border: 1px solid rgba(10, 132, 255, 0.35);
+  background: rgba(10, 15, 30, 0.5);
+  box-shadow: 
+    inset 0 1px 1px rgba(255, 255, 255, 0.08),
+    0 10px 30px rgba(10, 132, 255, 0.15);
+}
+
+.azure-logo i {
+  font-size: 28px;
+  filter: drop-shadow(0 2px 8px rgba(100, 210, 255, 0.4));
+}
+
+.subscription-dropdown {
+  max-width: 250px;
+}
+
+.btn-neon-blue {
+  background: linear-gradient(135deg, #0071e3, #64d2ff);
+  border: none;
+  box-shadow: 0 0 15px rgba(0, 113, 227, 0.4);
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.btn-neon-blue:hover {
+  box-shadow: 0 0 25px rgba(0, 113, 227, 0.7);
+  transform: translateY(-1px);
+  color: white;
+}
+
+.btn-neon-green {
+  background: linear-gradient(135deg, #30d158, #34c759);
+  border: none;
+  box-shadow: 0 0 15px rgba(48, 209, 88, 0.4);
+  transition: all 0.3s ease;
+  color: #0f141c;
+  font-weight: 600;
+}
+
+.btn-neon-green:hover:not(:disabled) {
+  box-shadow: 0 0 25px rgba(48, 209, 88, 0.7);
+  transform: translateY(-1px);
+  color: #0f141c;
+}
+
+.progress-bar-large {
+  height: 18px;
+}
+
+/* Advisor Recommendation Cards */
+.border-warning-dim {
+  border: 1px solid rgba(255, 214, 10, 0.25);
+  background: rgba(30, 26, 10, 0.3);
+}
+
+.advisor-rec-item {
+  background: rgba(255, 255, 255, 0.01);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  padding: 15px;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.advisor-rec-item:hover {
+  background: rgba(255, 255, 255, 0.02);
+  border-color: rgba(255, 214, 10, 0.2);
+}
+
+.font-size-xs {
+  font-size: 0.75rem;
+}
+
+.alert-card-success {
+  border: 1px solid rgba(48, 209, 88, 0.3);
+  background: rgba(10, 30, 15, 0.4);
+}
+
+.workload-header .badge {
+  background-color: var(--ios-yellow) !important;
+  color: #0f141c !important;
+  font-size: 0.75rem;
+  padding: 5px 10px;
+  border-radius: 12px;
+}
+
+

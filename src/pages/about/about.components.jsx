@@ -52,7 +52,7 @@ const About = () => {
               <h4>Technical Focus</h4>
               <p>
                 I specialize in <strong>Infrastructure as Code (IaC)</strong>, CI/CD automation, and zero-trust cloud 
-                governance. As a <strong>9x Azure Certified</strong> engineer and <strong>Microsoft Certified Trainer (MCT)</strong>, 
+                governance. As a <strong>10x Azure Certified</strong> engineer and <strong>Microsoft Certified Trainer (MCT)</strong>, 
                 I am passionate about eliminating manual operational toil, optimizing cloud costs, and mentoring technical teams.
               </p>
             </div>

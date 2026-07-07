@@ -225,12 +225,85 @@ I'm a results-driven Azure Cloud & DevOps Engineer with **4+ years** of experien
 
 ---
 
+### 💰 Live FinOps Cost Simulator Integration
+> *Live Microsoft Entra ID-authenticated cloud cost optimization engine.*
+>
+> Integrated directly into the portfolio application to demonstrate cloud-native engineering capabilities:
+> * **Microsoft Entra ID (OAuth 2.0 / PKCE)**: Secure same-tab redirect sign-in supporting enterprise and personal guest accounts.
+> * **Azure Resource Manager (ARM) Integration**: Reads active user subscriptions dynamically.
+> * **Azure Advisor REST API Scan**: Queries Cost recommendations in real-time to render cost-saving suggestions and attach warn badges directly to cloud resource cards.
+
+#### Flow Diagram (Interactive High Level Design)
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor User
+    participant App as Portfolio App (React)
+    participant MSAL as MSAL.js (localStorage)
+    participant Entra as Microsoft Entra ID
+    participant ARM as Azure ARM API (management.azure.com)
+    participant Advisor as Azure Advisor API
+
+    User->>App: Click "Connect Azure Tenant"
+    App->>MSAL: loginRedirect(loginRequest)
+    MSAL->>Entra: Redirect same tab to authorize
+    User->>Entra: Authenticate (Anto13franc@outlook.com)
+    Entra->>App: Redirect back with code in hash (#code=...)
+    App->>MSAL: handleRedirectPromise() on load
+    MSAL->>Entra: Exchange code for access tokens
+    Entra-->>MSAL: Return ARM Access Token
+    MSAL->>App: Set active account & token session
+    App->>User: Display subscription list dropdown
+    User->>App: Click "Scan Resources"
+    App->>ARM: Fetch user subscriptions
+    ARM-->>App: List of subscriptions
+    App->>Advisor: Fetch Cost recommendations
+    Advisor-->>App: Cost recommendation records
+    App->>User: Display Live FinOps cost alerts
+```
+
+#### Architecture Diagram (Interactive High Level Design)
+
+```mermaid
+graph TD
+    %% Styling
+    classDef main fill:#0078D4,stroke:#033d6b,stroke-width:2px,color:#fff;
+    classDef component fill:#1f2937,stroke:#374151,stroke-width:1px,color:#fff;
+    classDef azure fill:#0089d6,stroke:#005f96,stroke-width:1px,color:#fff;
+
+    subgraph Client ["Client Browser (Same-Tab Redirect Context)"]
+        User["👤 User"]
+        App["💻 Portfolio App (React / Vite)"]:::main
+        MSAL["🔑 MSAL.js Cache (localStorage)"]:::component
+    end
+
+    subgraph IdentityProvider ["Microsoft Identity Platform"]
+        Entra["🛡️ Microsoft Entra ID (Tenant 9cd6adc7...)"]:::azure
+    end
+
+    subgraph CloudResources ["Azure Management Services"]
+        ARM["⚙️ Azure Resource Manager REST API"]:::azure
+        Advisor["💡 Azure Advisor Cost Advisor"]:::azure
+    end
+
+    User -->|Interacts| App
+    App -->|Reads/Writes Session| MSAL
+    App -->|Redirects / Exchanges Code| Entra
+    MSAL -->|Stores Access Tokens| App
+    App -->|Requests Subscriptions with Bearer Token| ARM
+    App -->|Requests Cost Recommendations| Advisor
+```
+
+---
+
 
 ## 📜 Certifications
 
 | Badge | Certification |
 |-------|--------------|
 | ![AZ-305](https://img.shields.io/badge/AZ--305-Azure_Solutions_Architect_Expert-0078D4?style=flat-square&logo=microsoft-azure) | Microsoft Certified: Azure Solutions Architect Expert |
+| ![AZ-400](https://img.shields.io/badge/DevOps--Expert-DevOps_Engineer_Expert-0078D4?style=flat-square&logo=microsoft-azure) | Microsoft Certified: DevOps Engineer Expert |
 | ![AZ-104](https://img.shields.io/badge/AZ--104-Azure_Administrator_Associate-0078D4?style=flat-square&logo=microsoft-azure) | Microsoft Certified: Azure Administrator Associate |
 | ![AZ-500](https://img.shields.io/badge/AZ--500-Azure_Security_Engineer_Associate-0078D4?style=flat-square&logo=microsoft-azure) | Microsoft Certified: Azure Security Engineer Associate |
 | ![AZ-700](https://img.shields.io/badge/AZ--700-Azure_Network_Engineer_Associate-0078D4?style=flat-square&logo=microsoft-azure) | Microsoft Certified: Azure Network Engineer Associate |
