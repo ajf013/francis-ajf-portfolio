@@ -3,7 +3,7 @@ import "./CopilotWidget.css";
 
 const API_KEY = import.meta.env.VITE_AZURE_OPENAI_KEY || "";
 const ENDPOINT = import.meta.env.VITE_AZURE_OPENAI_ENDPOINT || "https://fcruz-portfolio-openai.openai.azure.com/";
-const DEPLOYMENT = import.meta.env.VITE_AZURE_OPENAI_DEPLOYMENT || "gpt-4-mini";
+const DEPLOYMENT = import.meta.env.VITE_AZURE_OPENAI_DEPLOYMENT || "gpt-5-mini";
 
 // Pre-defined local knowledge base for offline/fallback mode
 const LOCAL_KNOWLEDGE = {
